@@ -3,7 +3,7 @@ use ulaval
 show collections
 
 professeurs = db.professeurs
-
+professeurs.count()
 // 1 - trouver le professeur Étienne Marceau
 etienne_marceau = {"nom": "Marceau", "prenom": "Etienne"}
 champs_a_conserver = {"nom":true, "prenom":true, "_id":false}
