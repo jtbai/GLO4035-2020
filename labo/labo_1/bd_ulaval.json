@@ -1,0 +1,50 @@
+[{
+    "prenom":"Etienne",
+    "nom":"Marceau",
+    "cours":"ACT-3000",
+    "faculte":"fsg",
+    "ecole":"ulaval",
+    "cours_derniere_session":["ACT-7002","ACT-2001"]
+},
+{
+    "prenom":"Jean-Thomas",
+    "nom":"Baillargeon",
+    "cours":"GLO-4035",
+    "faculte":"fsg",
+    "ecole":"ulaval",
+    "age":32
+},
+{
+    "prenom":"Julie",
+    "nom":"Langevin",
+    "faculte":"fmd",
+    "ecole":"ulaval"
+},
+{
+    "prenom":"Richard",
+    "nom":"Khoury",
+    "faculte":"fsg",
+    "ecole":"ulaval",
+    "cours_derniere_session":["GLO-7027"]
+},
+{
+    "prenom":"Luc",
+    "nom":"Lamontagne",
+    "cours":"IFT-7022",
+    "faculte":"fsg",
+    "ecole":"ulaval"
+},
+{
+    "prenom":"Philippe",
+    "nom":"Gregoire",
+    "cours":"GSF-2103",
+    "faculte":"fsa",
+    "ecole":"ulaval"
+},
+{
+    "prenom":"Philippe",
+    "nom":"Gregoire",
+    "cours":"GSF-2103",
+    "faculte":"fsa",
+    "ecole":"ulaval"
+}]
