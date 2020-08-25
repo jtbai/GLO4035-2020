@@ -27,7 +27,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Import](labo/labo_1/import_script.js)
 
 ### Labo 2 - Cours Univeristé
-* [Données](labo/labo_2/bd_ulaval.json)
+* [Données](labo/labo_2/bd_ulaval_cours.json)
 * [Instructions](labo/labo_2/instructions.js)
 
 ## Projets de session
