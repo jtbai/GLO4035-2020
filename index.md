@@ -9,6 +9,9 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * **Lecture**: DDIA: Chapitre 1
 
 ### Semaine 2
+* **Lecture**: DDIA: Chapitre 2
+  * Relational Model Versus Document Model
+  * Query Language for Data
 * [Mise en Marche Docker](https://www.youtube.com/watch?v=gogW8UEzQuE)
 * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY)
 
