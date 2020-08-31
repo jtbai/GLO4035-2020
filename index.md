@@ -7,6 +7,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ### Semaine 1
 * **Lecture**: DDIA: Chapitre 1
+* [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ)
 
 ### Semaine 2
 * [Mise en Marche Docker](https://www.youtube.com/watch?v=gogW8UEzQuE)
