@@ -1,6 +1,6 @@
 # Projet: Parcours de vélo épicurien 
 Vous avez eu l'excellente idée pour une application! Il s'agit d'une application permettant à un utilisateur d'obtenir un parcours à vélo sur lequel sont situés les meilleurs restaurants d'une région.
-Afin de matérialiser votre idée, vous désirez monter un dossier de candidature pouvant être présenté à des investisseurs potentiels (dont la fondation Pierre-Ardouin) qui financeront son développement (en échange de votre âme).
+Afin de matérialiser votre idée, vous désirez monter un dossier de candidature pouvant être présenté à des investisseurs potentiels qui financeront son développement (en échange de votre âme).
 
 # Le dossier de candidature comprend:
 ### GLO-4035
