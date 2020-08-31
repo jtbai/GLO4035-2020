@@ -4,6 +4,10 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Avancement session
 * [Semaine 1 - Intro](avancement/semaine-01.pdf)
 
+## Prochain Live
+[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)
+
+
 ## Capsules
 
 ### Semaine 1
