@@ -86,10 +86,12 @@ highlightTheme: "darkula"
 ## Évaluations
 
 ### GLO-4035
-* 64% examens
-* 35% travaux
+* 59% examens
+* 40% travaux
     * 10% devoirs
-    * 25% projet
+    * 20% projet
+
+* **DOUBLE SEUIL**: 60% cumulative, 50% en moyenne aux examens
 
 ---
 
@@ -99,8 +101,10 @@ highlightTheme: "darkula"
 * 39% examens (- de % = - de Qs)
 * 60% travaux
     * 10% devoirs
-    * 15% oral
-    * 35% projet
+    * 10% oral
+    * 40% projet
+
+* **DOUBLE SEUIL**: 60% cumulative, 50% en moyenne aux examens
 
 ---
 
@@ -127,34 +131,37 @@ highlightTheme: "darkula"
 
 * Parcours de vélo épicurien
 * Première remise: fin septembre
-* 4 remises sommatives
-    * **(GLO-7035)** 1 remise formative  
-* 20% pour la contribution au projet
- * Sortez les boulets au plus vite
+* 3 remises sommatives
+* 1 remise formative  
 * Beaucoup de liberté
 * Utilisation éthique des données
 
 ---
 
-## Présentation orales
+## Projet de session
 
-* Thème au choix dans ma liste
-    * premier arrivé, premier servi
-* 15-20 minutes
-    * Présentation et Démonstration
-* Correction par les pairs
-* Correction par un panel d'experts
+* Équipe de 3
+* Date limite pour faire les équipes : 15 septembre
+* 10% pour la contribution au projet
+* Gestion des coéquipiers problématiques
+    * Un leader trouve le meilleur de tous
+    * Contrat d'équipe / Micromanagement 
+    * Conserver une trace des problèmes
+    * Ne pas attendre à la derniere minute pour m'en parler
+    * Je vais intervenir en **DERNIER RECOURS**
 
 ---
 
-## Mode d'évaluation
+## Présentation orales
 
-* Correction par le professeur
+* Format à distance au choix
+    * Enregistrement ou Live
+* Thème au choix dans ma liste
+    * premier arrivé, premier servi
+* ~20 minutes
+    * Présentation et Démonstration
+* Correction par les pairs
 * Correction par un panel d'experts
-* Implication de la classe
-    * Évaluation par les pairs
-    * Contribution aux travaux d'équipe
-    * Évaluation formative pour les travaux écrits
 
 ---
 
