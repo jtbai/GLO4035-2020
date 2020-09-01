@@ -108,6 +108,12 @@ highlightTheme: "darkula"
 
 ---
 
+## Évaluations
+
+Pas de panique
+
+---
+
 ## Examens
 * 2 examens
     * Vrai ou faux
@@ -122,7 +128,7 @@ highlightTheme: "darkula"
 ---
 
 ## Devoir
-* 3 technos, 3 devoirs
+* 3 technos = 3 devoirs
 * 2 en première partie de session
 
 ---
