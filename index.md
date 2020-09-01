@@ -12,12 +12,12 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Semaine 1 à 2
 * **Lecture**: DDIA: Chapitre 1
 * [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ)
-* [Présentation étude de cas](https://youtu.be/7lwjnHQb0TQ)
-
-### Semaine 2
 * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY)
 
-## Labo 
+## Exercices
+Étude de cas: Modéliser votre Nextflix
+* [Présentation des cas](https://youtu.be/7lwjnHQb0TQ)
+
 Labo 1 - Professeurs Université
 * [Présentation](https://youtu.be/7FiYAWaPPGc)
 * [Données](labo/labo_1/bd_ulaval.json)
