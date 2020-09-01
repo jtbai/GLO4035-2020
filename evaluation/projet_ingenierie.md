@@ -5,11 +5,11 @@ Afin de matérialiser votre idée, vous désirez monter un dossier de candidatur
 # Le dossier de candidature comprend:
 ### GLO-4035
 - Une application MVP (produit minimum viable) (15%)
-- Un rapport technique de l'application (10%)
+- Un rapport technique de l'application (15%)
 
 ### GLO-7035
 - Une application MVP (produit minimum viable) (20%)
-- Un rapport technique de l'application (15%)
+- Un rapport technique de l'application (20%)
 
 
 ## Application preuve de concept
