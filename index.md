@@ -16,7 +16,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Exercices
 Étude de cas: Modéliser votre Nextflix
-* [Présentation des cas](https://youtu.be/7lwjnHQb0TQ)
+* [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
 
 Labo 1 - Professeurs Université
 * [Présentation](https://youtu.be/7FiYAWaPPGc)
