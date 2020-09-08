@@ -51,5 +51,5 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Utilisation Docker](https://www.youtube.com/watch?v=gogW8UEzQuE)
 
 ## House Keeping
-[Horaire Matière A20](/avancement/horaire)  
+[Horaire Matière A20](/avancement/horaire.md)  
 [Teams GLO4035 - GLO7035 A20](https://teams.microsoft.com/l/team/19%3a4a2a1eece87e41c0ba2cec9995d571d9%40thread.tacv2/conversations?groupId=f8b677e5-52e9-4a99-843a-3f500ba30577&tenantId=56778bd5-6a3f-4bd3-a265-93163e4d5bfe)
