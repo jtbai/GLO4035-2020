@@ -37,7 +37,7 @@ Oui j'ai vu un peu grand la semaine passée. Je me reprend cette semaine
 ---
 
 
-## Ammorce
+## Amorce
 
 * Quelle est la différence entre NoSQL et SQL ? 
 * Quelle est la propriété ACID la plus importante ?
