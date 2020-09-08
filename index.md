@@ -2,26 +2,42 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 1 - Intro](avancement/semaine-01.pdf)
+* [Semaine 2](avancement/semaine-02.pdf)
 
 ## Prochain Live
-[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)
+[Semaine 2 - Intro](https://youtu.be/38N_fREJuHk)
 
-## Capsules
+## Devoir 
+[Devoir 1](devoir/devoir_1/devoir1.js) (22 septembre 2020)
 
-### Semaine 1 à 2
+## Matière
+
+### A Date
 * **Lecture**: DDIA: Chapitre 1
 * [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ)
+
+### Semaine 3: 15 Septembre
+* **Lecture**: DDIA: Chapitre 2
+  * Relational Model Versus Document Model
+  * Query Language for Data
+* **Labo** : 1 et 2
 * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY)
+* [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo)
+
 
 ## Exercices
 Étude de cas: Modéliser votre Nextflix
 * [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
 
-Labo 1 - Professeurs Université
-* [Présentation](https://youtu.be/7FiYAWaPPGc)
+### Labo 1 - Professeurs Université
 * [Données](labo/labo_1/bd_ulaval.json)
 * [Instructions](labo/labo_1/instructions.js)
+* [Correction](labo/labo_1/correction.js)
+* [Import](labo/labo_1/import_script.js)
+
+### Labo 2 - Cours Univeristé
+* [Données](labo/labo_2/bd_ulaval_cours.json)
+* [Instructions](labo/labo_2/instructions.js)
 
 ## Projets de session
 [Ponderation](evaluation/ponderation.md)
