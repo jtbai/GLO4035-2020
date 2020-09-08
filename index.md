@@ -13,7 +13,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Formative
 [Gabarti - Formative 1](evaluation/formative.md)
 ### Projet
-[Velo épicurien](evaluation/projet_ingenierie.md)
+[Velo épicurien](evaluation/projet_ingenierie.md)  
 [Ponderation](evaluation/ponderation.md)
 
 ## Matière
