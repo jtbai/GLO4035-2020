@@ -39,7 +39,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Données](labo/labo_2/bd_ulaval_cours.json)
 * [Instructions](labo/labo_2/instructions.js)
 
-## Projets de session
+## Projet de session
 [Ponderation](evaluation/ponderation.md)
 
 ### Application
@@ -50,5 +50,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Presentation Docker](https://youtu.be/iexpQnSj1X4)
 * [Utilisation Docker](https://www.youtube.com/watch?v=gogW8UEzQuE)
 
-## Lien Teams
+## House Keeping
+[Horaire Matière A20](/avancement/horaire)  
 [Teams GLO4035 - GLO7035 A20](https://teams.microsoft.com/l/team/19%3a4a2a1eece87e41c0ba2cec9995d571d9%40thread.tacv2/conversations?groupId=f8b677e5-52e9-4a99-843a-3f500ba30577&tenantId=56778bd5-6a3f-4bd3-a265-93163e4d5bfe)
