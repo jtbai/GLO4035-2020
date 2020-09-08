@@ -7,9 +7,14 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Prochain Live
 [Semaine 2 - Intro](https://youtu.be/38N_fREJuHk)
 
-## Devoir 
+## Evaluations 
+### Devoirs
 [Devoir 1](devoir/devoir_1/devoir1.js) (22 septembre 2020)
+### Formative
 [Gabarti - Formative 1](evaluation/formative.md)
+### Projet
+[Velo épicurien](evaluation/projet_ingenierie.md)
+[Ponderation](evaluation/ponderation.md)
 
 ## Matière
 
@@ -39,12 +44,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Labo 2 - Cours Univeristé
 * [Données](labo/labo_2/bd_ulaval_cours.json)
 * [Instructions](labo/labo_2/instructions.js)
-
-## Projet de session
-[Ponderation](evaluation/ponderation.md)
-
-### Application
-[Velo épicurien](evaluation/projet_ingenierie.md)
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI)
