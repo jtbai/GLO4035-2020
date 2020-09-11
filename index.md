@@ -36,12 +36,14 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
 
 ### Labo 1 - Professeurs Université
+* [Présentation](https://youtu.be/7FiYAWaPPGc)
 * [Données](labo/labo_1/bd_ulaval.json)
 * [Instructions](labo/labo_1/instructions.js)
 * [Correction](labo/labo_1/correction.js)
 * [Import](labo/labo_1/import_script.js)
 
 ### Labo 2 - Cours Univeristé
+* [Présentation](https://youtu.be/HkIB3csR2AU)
 * [Données](labo/labo_2/bd_ulaval_cours.json)
 * [Instructions](labo/labo_2/instructions.js)
 
