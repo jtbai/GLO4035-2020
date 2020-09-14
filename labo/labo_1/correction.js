@@ -42,7 +42,7 @@ professeurs_fs = professeurs.find({"faculte":/fs/})
 professeursfs = professeurs.find({"faculte":/fs/}, {'nom':1, 'prenom':1})
 
 // 8 - Est-ce qu'il serait possible de normaliser les noms dans la base de données pour les prénoms soient en minuscule et les nom en majuscule? 
-professeurs.find({"faculte":/fs/}, {'nom':1, 'prenom':1}).forEach(function normalise(entry) {
+professeurs.find({}).forEach(function normalise(entry) {
     entry.nom = entry.nom.toUpperCase();
     entry.prenom = entry.prenom.toLowerCase();
     professeurs.save(entry)
