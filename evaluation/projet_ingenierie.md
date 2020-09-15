@@ -24,7 +24,7 @@ D'un point de vue fonctionnel, l'application doit permettre à un utilisateur d'
 Bien que non nécessaire, l'application peut prévoir
 - Une interface graphique attrayante
 - Des statistiques intéressantes
-- Des recommandation de parcours
+- Des recommandations de parcours
 - L'utilisation de données externes 
 - Un sentiment de proximité pour les investisseurs qui sont de la ville de Québec
 
@@ -42,14 +42,14 @@ Le rapport technique est le document qui sera lu par les investisseurs potentiel
     - Présentation du rapport
 - Stratégie d'acquisition des données  **(2 points)**
     - Source, Taille
-    - Analyse descriptive des données (nombre, moyenne, total des distance, etc.)
+    - Analyse descriptive des données (nombre, moyenne, total des distances, etc.)
     - Présentation d'exemples de données source
 - Technologies utilisées **(2 points)**
     - Langage de programmation
     - Bases de données
 - Les détails de votre processus d'ETL  **(3 points)**
     - Processus d'extraction des données brutes
-    - Processus de transformation vers les données transormées
+    - Processus de transformation vers les données transformées
     - Les données présentes dans chacune des bases de données
 - Les détails de votre pipeline de donnée  **(3 points)**
     - Présenter L'algorithme permettant de produire les parcours
@@ -64,19 +64,19 @@ Le rapport technique est le document qui sera lu par les investisseurs potentiel
         - Présenter l'algorithme 
 
   **GLO-7035**
-- Fonctionnalité avancées **(5 points)**
+- Fonctionnalités avancées **(5 points)**
     - Algorithmes d'intelligence artificielle / requêtes de BI / statistiques additionnelles
     - Pensez "multi-disciplinaire"
 
-Il est possible que certains investisseurs potentiels soient eux-mêmes des informaticiens; il est impératifs que vous justifier **chacuns** de vos choix technologiques selon les considérations de fiabilité, maintenabilité et d'extensibilité.
+Il est possible que certains investisseurs potentiels soient eux-mêmes des informaticiens; il est impératif de justifier **chacun** de vos choix technologiques selon les considérations de fiabilité, de maintenabilité et d'extensibilité.
 
 # Remises
-Chaque remise est cumulative, c'est-à-dire que les livrables doivent toujours rester dans les remises ultérieures. Ainsi le rapport et l'application seront des *work-in-progress* tout au long de la session. Évidemment, une mécanique de points permet de reprendre des points perdu en corigeant ses erreurs.
+Chaque remise est cumulative, c'est-à-dire que les livrables doivent toujours rester dans les remises ultérieures. Ainsi le rapport et l'application seront des *work-in-progress* tout au long de la session. Évidemment, une mécanique de points permet de reprendre des points perdus en corrigeant ses erreurs.
 
-Évidemment, chaque *kick-off* de remise sera accompagnée d'un barême de correction de telle sorte que vous pourrez vous assurer d'avoir 100% à chaque remise ;)
+Évidemment, chaque *kick-off* de remise sera accompagnée d'un barème de correction de telle sorte que vous pourrez vous assurer d'avoir 100% à chaque remise ;)
 
-## Remise 1: Étude de faisabilité (29 septembre 2020):
-Avant de se lancer dans le développement d'une application, il est important de valider que les données et technologies nécessaires au projet existent et peuvent être expoitées. Dans cette remise, vous devez écrire un document de deux pages maximum décrivant la 
+## Remise 1: Étude de faisabilité (29 septembre 2020)
+Avant de se lancer dans le développement d'une application, il est important de valider que les données et technologies nécessaires au projet existent et peuvent être exploitées. Dans cette remise, vous devez écrire un document de deux pages qui maximise la description des éléments suivants
 
 
 ### Rapport
@@ -89,7 +89,7 @@ Avant de se lancer dans le développement d'une application, il est important de
     - Lance une application web sur le port 80
     - Docker compose qui lance les deux bases de données choisies
 
-- Réponds à la requete sur le port 80 
+- Réponds à la requête sur le port 80 
 
 ```
 @GET /heartbeat
@@ -105,7 +105,7 @@ Où l'objet retourné contient:
 - `villeChoisie`: le nom de la ville choisie pour votre projet
 
 ## Remise 2 : Dérisquer l'application
-Votre projet comporte deux grand risques: soient l'aspect infrastructure de tout connecter ensemble et importer les données externes à vos bases de données. Dans cette remise, ces deux aspects doivent être dérisqués.
+Votre projet comporte deux grands risques: soient l'aspect infrastructure de tout connecter ensemble et importer les données externes à vos bases de données. Dans cette remise, ces deux aspects doivent être dérisqués.
 
 ### Rapport
 - Les détails de votre processus d'ETL (Section 3)
@@ -196,7 +196,7 @@ Cet appel permet à un utilisateur ou une application cliente d'obtenir:
 - qui sont des restaurants inclus dans les types définis dans le tableau `type`
 
 Le trajet obtenu est une liste de 
-- segments définis comme un paire
+- segments définis comme une paire
     - d'objet géographique `path` de type LineString
     - d'objet restaurant  `restaurant`
 
