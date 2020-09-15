@@ -7,7 +7,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Prochain Live
 [Semaine 3 - Mongo DB](https://youtu.be/38N_fREJuHk)
 
-## Evaluations 
+## Évaluations 
 ### Devoirs
 [Devoir 1](devoir/devoir_1/devoir1.js) (22 septembre 2020)
 ### Formative
@@ -40,7 +40,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * Labo 1: Professeurs Université
   * Labo 2: Cours Université
 
-### A faire pour le 22 septembre 2020
+### À faire pour le 22 septembre 2020
 * **Lectures**:
   * DDIA: Chapitre 3
     * Data Structure
