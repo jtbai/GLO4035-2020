@@ -71,7 +71,7 @@ Le rapport technique est le document qui sera lu par les investisseurs potentiel
 Il est possible que certains investisseurs potentiels soient eux-mêmes des informaticiens; il est impératifs que vous justifier **chacuns** de vos choix technologiques selon les considérations de fiabilité, maintenabilité et d'extensibilité.
 
 # Remises
-Chaque remise est cumulative, c'est-à-dire que les livrables doivent toujours rester dans les remises ultérieures. Ainsi le rapport et l'application seront des  *work-in-progress* tout au long de la session. Évidemment, une mécanique de points permet de reprendre des points perdu en corigeant ses erreurs.
+Chaque remise est cumulative, c'est-à-dire que les livrables doivent toujours rester dans les remises ultérieures. Ainsi le rapport et l'application seront des *work-in-progress* tout au long de la session. Évidemment, une mécanique de points permet de reprendre des points perdu en corigeant ses erreurs.
 
 Évidemment, chaque *kick-off* de remise sera accompagnée d'un barême de correction de telle sorte que vous pourrez vous assurer d'avoir 100% à chaque remise ;)
 

@@ -14,26 +14,52 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 [Gabarti - Formative 1](evaluation/formative.md)
 ### Projet
 [Velo épicurien](evaluation/projet_ingenierie.md)  
-[Ponderation](evaluation/ponderation.md)
+[Ponderation](evaluation/ponderation.md)  
+[Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing)
 
 ## Matière
 
-### A Date
-* **Lecture**: DDIA: Chapitre 1
-* [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ)
+### Desing d'application
+* **Lecture**: 
+  * DDIA: Chapitre 1 
+  * DDIA: Chapitre 2
+    * Relational Model Versus Document Model
+    * Query Language for Data
+* **Capsules**
+  * [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ)
 
-### Semaine 3: 15 Septembre
-* **Lecture**: DDIA: Chapitre 2
-  * Relational Model Versus Document Model
-  * Query Language for Data
-* **Labo** : 1 et 2
-* [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY)
-* [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo)
+* **Labo**
+  * Étude de cas: Modéliser votre Nextflix
 
+### Mongo DB
+* **Capsules** :
+  * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY)
+  * [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo) 
+
+* **Labo** : 
+  * Labo 1: Professeurs Université
+  * Labo 2: Cours Université
+
+### A faire pour le 22 septembre 2020
+* **Lectures**:
+  * DDIA: Chapitre 3
+    * Data Strcture
+
+* **Capsules**
+  * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA)
+  * [Index (BTree + RTree)](https://youtu.be/Ym-cDh6pEjQ)
+  * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8)
+  * [Indexation Mongo DB](https://youtu.be/qehNybvz3lQ)  
+  * [Index Géospatial Mongo DB](https://youtu.be/ageuBJ7w6t0)
+
+* **Exercices**
+  * Labo 3: Commerces campus
 
 ## Exercices
-Étude de cas: Modéliser votre Nextflix
-* [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
+
+### Étude de cas: Modéliser votre Nextflix
+  * [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
+
 
 ### Labo 1 - Professeurs Université
 * [Présentation](https://youtu.be/7FiYAWaPPGc)
@@ -46,6 +72,12 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Présentation](https://youtu.be/HkIB3csR2AU)
 * [Données](labo/labo_2/bd_ulaval_cours.json)
 * [Instructions](labo/labo_2/instructions.js)
+* [Corrigé](labo/labo_2/correction.js)
+
+### Labo 3 - Commerces campus
+* [Présentation]()
+* [Données](labo/labo_3/donnees.json)
+* [Instructions](labo/labo_3/instructions.js)
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI)

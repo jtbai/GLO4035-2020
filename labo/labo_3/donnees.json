@@ -1,0 +1,38 @@
+[
+    { 
+        "nom":"Le Pub",
+        "type":"Restaurant",
+        "emplacement":{
+            "type":"Point", 
+            "coordinates":[-71.269245, 46.778901]
+        }
+    },{
+        "nom":"Shogun Sushi",
+        "type":"Restaurant",
+        "emplacement":{
+            "type":"Point", 
+            "coordinates":[-71.286379, 46.767585]
+        }
+    },{
+        "nom":"Best Buy",
+        "type":"Détail",
+        "emplacement":{
+            "type":"Point", 
+            "coordinates":[-71.282993, 46.771125]
+        }
+    },{
+        "nom":"Boulevard Laurier",
+        "type":"Rue",
+        "emplacement":{
+            "type":"LineString", 
+            "coordinates":[[-71.286286, 46.768277],[-71.255534,46.784411]]
+        }
+    },{
+        "nom":"Pouliot",
+        "type":"Pavillon",
+        "emplacement":{
+            "type":"Polygon", 
+            "coordinates":[[[-71.276455, 46.779203],[-71.274384, 46.777950],[-71.273724,46.778255],[-71.27548, 46.779706],[-71.276455, 46.779203]]]
+        }
+    }
+]
