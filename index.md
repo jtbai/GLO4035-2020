@@ -4,8 +4,11 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Avancement session
 * [Semaine 3](avancement/semaine-03.pdf)
 
-## Prochain Live
-[Semaine 3 - Mongo DB](https://youtu.be/38N_fREJuHk)
+## Live
+[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)
+[Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk)
+[Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY)
+
 
 ## Évaluations 
 ### Devoirs
