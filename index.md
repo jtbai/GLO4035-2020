@@ -2,10 +2,10 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 2](avancement/semaine-02.pdf)
+* [Semaine 3](avancement/semaine-03.pdf)
 
 ## Prochain Live
-[Semaine 2 - Intro](https://youtu.be/38N_fREJuHk)
+[Semaine 3 - Mongo DB](https://youtu.be/38N_fREJuHk)
 
 ## Evaluations 
 ### Devoirs
@@ -43,7 +43,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### A faire pour le 22 septembre 2020
 * **Lectures**:
   * DDIA: Chapitre 3
-    * Data Strcture
+    * Data Structure
 
 * **Capsules**
   * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA)
@@ -75,7 +75,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Corrigé](labo/labo_2/correction.js)
 
 ### Labo 3 - Commerces campus
-* [Présentation]()
 * [Données](labo/labo_3/donnees.json)
 * [Instructions](labo/labo_3/instructions.js)
 
