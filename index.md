@@ -5,7 +5,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Semaine 3](avancement/semaine-03.pdf)
 
 ## Live
-[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)  
+[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
 [Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk)  
 [Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY)  
 
