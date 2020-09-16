@@ -5,16 +5,16 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Semaine 3](avancement/semaine-03.pdf)
 
 ## Live
-[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)
-[Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk)
-[Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY)
+[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk)  
+[Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk)  
+[Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY)  
 
 
 ## Évaluations 
 ### Devoirs
 [Devoir 1](devoir/devoir_1/devoir1.js) (22 septembre 2020)
 ### Formative
-[Gabarti - Formative 1](evaluation/formative.md)
+[Gabarit - Formative 1](evaluation/formative.md)
 ### Projet
 [Velo épicurien](evaluation/projet_ingenierie.md)  
 [Ponderation](evaluation/ponderation.md)  
