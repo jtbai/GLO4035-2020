@@ -1,0 +1,49 @@
+# LABO - NEO4J
+
+## Pour initilialiser Neo4J
+
+1. docker run --rm --name neo4j_server -p 7474:7474 -p 7687:7687 -d neo4j
+
+2. sur votre browser http://localhost:7474
+
+    username: neo4j
+    password: neo4j
+
+    copier/coller ce qu'il y a dans le fichier labo-neo4j.data dans l'invite de commande
+
+## Questions
+
+1. Ajouter l'acteur "David Sandberg".
+
+
+2. Ajouter le film "Kung Fury", avec l'année de production 2015.
+
+
+3. Trouvez l'acteur "David Sandberg".
+
+
+4. Trouvez le film "Kung Fury"
+
+
+4. Ajouter une relation ACTED_IN allait de "David Sandberg" à "Kung Fury"
+
+
+5. Ajoutez l'étiquette "NO_OSCAR" à "Keanu Reeves".
+
+
+6. Trouvez les films ayant été réalisés depuis l'an 2000.
+
+
+7. Trouvez tous les films où "Keanu Reeves" a été acteur (relation "ACTED_IN").
+
+
+8. Trouvez le réalisateur (relation "DIRECTED") du film "Top Gun".
+
+
+9. Combien de critiques (relation "REVIEWED") ont été faites pour le film Jerry Maguire.
+
+
+10. Trouvez tous les films où les acteurs du film "The Matrix Revolutions" ont joué.
+
+
+11. Ajoutez la paire clé-valeur "seen: True" à tous les films de "Keanu Reeves" (oui vous êtes un fan).

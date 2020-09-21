@@ -8,6 +8,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 [Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
 [Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk){:target="_blank"}    
 [Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY){:target="_blank"}    
+[Semaine 4 - Indexation](https://youtu.be/lkb9lPresyM){:target="_blank"}    
 
 
 ## Évaluations 
@@ -23,7 +24,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Matière
 
 ### Desing d'application
-* **Lecture**: 
+* **Lecture**
   * DDIA: Chapitre 1 
   * DDIA: Chapitre 2
     * Relational Model Versus Document Model
@@ -35,16 +36,19 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * Étude de cas: Modéliser votre Nextflix
 
 ### Mongo DB
-* **Capsules** :
+* **Capsules** 
   * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY){:target="_blank"}  
   * [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo){:target="_blank"}   
+  * [Indexation Mongo DB](https://youtu.be/qehNybvz3lQ){:target="_blank"}    
+  * [Index Géospatial Mongo DB](https://youtu.be/ageuBJ7w6t0){:target="_blank"}  
 
-* **Labo** : 
+* **Labo**  
   * Labo 1: Professeurs Université
   * Labo 2: Cours Université
+  * Labo 3: Commerces campus
 
-### À faire pour le 22 septembre 2020
-* **Lectures**:
+### Structure en mémoire
+* **Lectures**
   * DDIA: Chapitre 3
     * Data Structure
 
@@ -52,11 +56,18 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA){:target="_blank"}  
   * [Index (BTree + RTree)](https://youtu.be/Ym-cDh6pEjQ){:target="_blank"}  
   * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8){:target="_blank"}  
-  * [Indexation Mongo DB](https://youtu.be/qehNybvz3lQ){:target="_blank"}    
-  * [Index Géospatial Mongo DB](https://youtu.be/ageuBJ7w6t0){:target="_blank"}  
+
+### À faire pour le 29 septembre 2020
+* **Lectures**
+  * DDIA: Chapitre 2
+    * Graph-Like Data Models
+
+* **Capsules**
+  * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"}  
+  * [Neo4J](https://youtu.be/bPBkvmw6bo0){:target="_blank"}  
 
 * **Exercices**
-  * Labo 3: Commerces campus
+  * Labo 4: Liaison Filmographique
 
 ## Exercices
 
@@ -78,13 +89,21 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Corrigé](labo/labo_2/correction.js)
 
 ### Labo 3 - Commerces campus
-* [Données](labo/labo_3/donnees.json){:target="_blank"}  
-* [Instructions](labo/labo_3/instructions.js){:target="_blank"}  
+* [Données](labo/labo_3/donnees.json)
+* [Instructions](labo/labo_3/instructions.js)
+* [Corrigé](labo/labo_3/correction.js)
+
+### Labo 4: Liaison Filmographique
+* [Données](labo/labo_4/donnees_film.txt)
+* [Instructions](labo/labo_4/instructions.txt)
+
+
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI){:target="_blank"}  
 * [Presentation Docker](https://youtu.be/iexpQnSj1X4){:target="_blank"}  
 * [Utilisation Docker](https://www.youtube.com/watch?v=gogW8UEzQuE){:target="_blank"}  
+* [Flask + Docker](https://youtu.be/CzpxPsAaItQ){:target="_blank"}  
 
 ## House Keeping
 [Horaire matière A20](/avancement/horaire.md){:target="_blank"}    
