@@ -64,7 +64,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 * **Capsules**
   * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"}  
-  * [Neo4J](https://youtu.be/bPBkvmw6bo0){:target="_blank"}  
+  * [Neo4J](https://youtu.be/Z-WOzomxQeI){:target="_blank"}  
 
 * **Exercices**
   * Labo 4: Liaison Filmographique
@@ -94,6 +94,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Corrigé](labo/labo_3/correction.js)
 
 ### Labo 4: Liaison Filmographique
+* [Présentation](https://youtu.be/86z2_T_yk7w){:target="_blank"}  
 * [Données](labo/labo_4/donnees_film.txt)
 * [Instructions](labo/labo_4/instructions.txt)
 
