@@ -4,7 +4,7 @@ theme : "white"
 highlightTheme: "darkula"
 ---
 
-# Semaine 3
+# Semaine 4
 
 
 <small><div align=center>Jean-Thomas Baillargeon</small>  
@@ -60,6 +60,7 @@ Premier remaniement après la remise 1
   * Réfléchir en géométrie
 * Données Textuelles
   * On va y revenir en 2e partie de la session
+  
 ---
 
 ## Retour
