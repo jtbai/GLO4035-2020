@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 3](avancement/semaine-03.pdf)
+* [Semaine 4](avancement/semaine-04.pdf)
 
 ## Live
 [Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
