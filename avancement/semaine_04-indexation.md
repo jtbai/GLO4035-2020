@@ -60,18 +60,18 @@ Premier remaniement après la remise 1
   * Réfléchir en géométrie
 * Données Textuelles
   * On va y revenir en 2e partie de la session
-  
+
 ---
 
 ## Retour
 
 * Heap / B+Tree (ok n'en reparle plus)
 * RTREE 
- * Pas juste pour les données géographiques 
+  * Pas juste pour les données géographiques 
 * LSM TREE
   * Exemple
 * Mongo DB
-  * Faites vos requêtes correctement (séquence) ;)
+  * Faites vos requêtes correctement (séquence)
   * Optimiseur de requêtes
   * 2dSphere
 
