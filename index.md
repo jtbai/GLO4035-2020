@@ -2,18 +2,23 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 4](avancement/semaine-04.pdf)
+* [Semaine 4](avancement/semaine-05.pdf)
 
 ## Live
 [Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
 [Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk){:target="_blank"}    
 [Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY){:target="_blank"}    
 [Semaine 4 - Indexation](https://youtu.be/lkb9lPresyM){:target="_blank"}    
+[Semaine 5 - Neo4J](https://youtu.be/49IFyLJHSbQ){:target="_blank"}  
+
 
 
 ## Évaluations 
 ### Devoirs
-[Devoir 1](devoir/devoir_1/devoir1.js) (22 septembre 2020)
+* [Devoir 2 - Ennonce](devoir/devoir2.py) (13 octobre 2020)  
+* [Devoir 2 - schéma 1 des données](devoir/schema_1.svg)  
+* [Devoir 2 - schéma 2 des données](devoir/schema_2.svg)
+
 ### Formative
 [Gabarit - Formative 1](evaluation/formative.md)
 ### Projet
@@ -74,7 +79,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
 
 * **Exercices**
-   
+  * Labo 5: Portefeuille de crypto
 
 ## Exercices
 
@@ -106,11 +111,9 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Instructions](labo/labo_4/instructions.txt)
 * [Corrigé](labo/labo_4/correction.txt)
 
-
 ### Labo 5: Portefeuille de crypto
 * [Données](labo/labo_5/db_ulaval_actions.txt)
 * [Instructions](labo/labo_5/instructions.js)
-
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI){:target="_blank"}  
