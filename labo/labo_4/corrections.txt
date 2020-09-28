@@ -1,0 +1,61 @@
+# LABO - NEO4J
+
+## Pour initilialiser Neo4J
+
+1. docker run --rm --name neo4j_server -p 7474:7474 -7687:7687 -d neo4j
+
+2. sur votre browser http://localhost:7474
+
+    username: neo4j
+    password: neo4j
+
+    copier/coller ce qu'il y a dans le fichier labo-neo4j.data dans l'invite de commande
+
+## Questions
+
+1. Ajouter l'acteur "David Sandberg".
+CREATE (:Person {name: "David Sandberg"})
+
+2. Ajouter le film "Kung Fury", avec l'année de production 2015.
+CREATE (:Movie {title: "Kung Fury"})
+
+3. Trouvez l'acteur "David Sandberg".
+MATCH (actor:Person {name: "David Sandberg"}) return actor
+
+4. Trouvez le film "Kung Fury"
+MATCH (movie:Movie {title: "Kung Fury"}) return movie
+
+4. Ajouter une relation ACTED_IN allait de "David Sandberg" à 
+MATCH (movie:Movie), (actor:Person ) WHERE movie.title = "Kung Fury" and actor.name = "David Sandberg"
+MERGE (actor)-[:ACTED_IN]->(movie)
+
+5. Ajoutez l'étiquette "NO_OSCAR" à "Keanu Reeves".
+MATCH (actor:Person {name: "Keanu Reeves"})
+SET actor:No_Oscar
+
+6. Trouvez les films ayant été réalisés depuis l'an 2000.
+MATCH (movie:Movie)
+where movie.released > 2000
+
+7. Trouvez tous les films où "Keanu Reeves" a été acteur (relation "ACTED_IN").
+MATCH (movie:Movie)<-[:ACTED_IN]-(person:Person  {name: "Keanu Reeves"})
+return movie
+
+8. Trouvez le réalisateur (relation "DIRECTED") du film "Top Gun".
+
+MATCH (movie:Movie  {title: "Top Gun"})<-[:DIRECTED]-(person:Person)
+return movie, person.name    
+
+9. Combien de critiques (relation "REVIEWED") ont été faites pour le film Jerry Maguire.
+
+MATCH (movie:Movie  {title: "Jerry Maguire"})<-[reviews:REVIEWED]-(person:Person)
+return count(reviews)
+
+10. Trouvez tous les films où les acteurs du film "The Matrix Revolutions" ont joué.
+MATCH (movie:Movie  {title: "The Matrix Revolutions"})<-[:ACTED_IN]-(person:Person)-[:ACTED_IN]->(movie_played:Movie)
+return person, movie_played
+
+11. Ajoutez la paire clé-valeur "seen: True" à tous les films de "Keanu Reeves" (oui vous êtes un fan).
+MATCH p = (movie:Movie )<-[:ACTED_IN]-(:Person{name: "Keanu Reeves"} )
+foreach(movies in nodes(P) | SET movies.seen )
+return person, movie_played

@@ -47,6 +47,15 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * Labo 2: Cours Université
   * Labo 3: Commerces campus
 
+### Neo4J
+* **Lectures**
+  * DDIA: Chapitre 2
+    * Graph-Like Data Models
+* **Capsules**
+  * [Neo4J](https://youtu.be/Z-WOzomxQeI){:target="_blank"}  
+* **Labo**
+  * Labo 4: Liaison Filmographique
+
 ### Structure en mémoire
 * **Lectures**
   * DDIA: Chapitre 3
@@ -54,20 +63,18 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 * **Capsules**
   * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA){:target="_blank"}  
+  * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"} 
   * [Index (BTree + RTree)](https://youtu.be/Ym-cDh6pEjQ){:target="_blank"}  
   * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8){:target="_blank"}  
 
-### À faire pour le 29 septembre 2020
-* **Lectures**
-  * DDIA: Chapitre 2
-    * Graph-Like Data Models
+### À faire pour le 6 octobre 2020
 
 * **Capsules**
-  * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"}  
-  * [Neo4J](https://youtu.be/Z-WOzomxQeI){:target="_blank"}  
+* [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
+* [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
 
 * **Exercices**
-  * Labo 4: Liaison Filmographique
+   
 
 ## Exercices
 
@@ -97,7 +104,12 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Présentation](https://youtu.be/86z2_T_yk7w){:target="_blank"}  
 * [Données](labo/labo_4/donnees_film.txt)
 * [Instructions](labo/labo_4/instructions.txt)
+* [Corrigé](labo/labo_4/correction.txt)
 
+
+### Labo 5: Portefeuille de crypto
+* [Données](labo/labo_5/db_ulaval_actions.txt)
+* [Instructions](labo/labo_5/instructions.js)
 
 
 ## Mise en place techno
