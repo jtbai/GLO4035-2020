@@ -75,8 +75,8 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### À faire pour le 6 octobre 2020
 
 * **Capsules**
-* [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
-* [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
+  * [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
+  * [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
 
 * **Exercices**
   * Labo 5: Portefeuille de crypto

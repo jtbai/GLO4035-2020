@@ -27,18 +27,27 @@ highlightTheme: "darkula"
 
 ---
 
-## Grosse semaine :)
+## Amorce
 
 ---
 
-## Retour
-
-Graphe Attribué
-  * Être créatif dans les noeud et connections
-
-Neo4J
-* C'est cool hen?
-* Calculs complexes, z
+## Correction Devoir
 
 ---
+
+## Retour Semaine Précédente
+
+* Graphe attribué
+    * Sommets, arretes
+    * Étiquette, attribut
+    * Être créatif dans les noeud et connections
+* Neo4J
+    * Noeud et Relations () et []
+    * path = 
+    * Opérateur *
+    * Aggrégations (Sum, count, size...)
+
+---
+
+## 
 
