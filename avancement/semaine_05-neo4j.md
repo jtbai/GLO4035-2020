@@ -33,10 +33,6 @@ highlightTheme: "darkula"
 
 ---
 
-## Correction Devoir
-
----
-
 ## Retour Semaine Précédente
 
 * Graphe attribué
@@ -53,6 +49,7 @@ highlightTheme: "darkula"
 
 ## Cette semaine
 
+* Correction Devoir 1
 * Présentation Devoir 2
 * Teaser !
 * Remise 2 - Barème des livrables
