@@ -17,7 +17,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Devoirs
 * [Devoir 2 - Ennonce](devoir/devoir2.py) (13 octobre 2020)  
 * [Devoir 2 - schéma 1 des données](devoir/schema_1.svg)  
-* [Devoir 2 - schéma 2 des données](devoir/schema_2.svg)
 
 ### Formative
 [Gabarit - Formative 1](evaluation/formative.md)
@@ -73,6 +72,10 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8){:target="_blank"}  
 
 ### À faire pour le 6 octobre 2020
+* **Lectures**
+  * DDIA: Chapitre 3
+    * Transaction Processing or Analytics?
+    * Column-Oriented Storage
 
 * **Capsules**
   * [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
@@ -112,7 +115,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Corrigé](labo/labo_4/correction.txt)
 
 ### Labo 5: Portefeuille de crypto
-* [Données](labo/labo_5/db_ulaval_actions.txt)
+* [Données](labo/labo_5/db_ulaval_actions.js)
 * [Instructions](labo/labo_5/instructions.js)
 
 ## Mise en place techno
