@@ -41,16 +41,16 @@ Le rapport technique est le document qui sera lu par les investisseurs potentiel
     - Sommaire de la solution 
     - Présentation du rapport
 - Stratégie d'acquisition des données  **(2 points)**
-    - Source, Taille
-    - Analyse descriptive des données (nombre, moyenne, total des distances, etc.)
+    - Source, Méthode d'Extraction
     - Présentation d'exemples de données source
 - Technologies utilisées **(2 points)**
     - Langage de programmation
     - Bases de données
 - Les détails de votre processus d'ETL  **(3 points)**
-    - Processus d'extraction des données brutes
-    - Processus de transformation vers les données transformées
-    - Les données présentes dans chacune des bases de données
+    - Processus d'acquitision initiales des données 
+    - Processus d'acquitision incrémental de données
+    - Processus de transformation des données transformées
+    - Schéma de la pipeline d'ETL
 - Les détails de votre pipeline de donnée  **(3 points)**
     - Présenter L'algorithme permettant de produire les parcours
     - Calcul permettant de trouver le parcours épicurien le plus intéressant pour l'usager
@@ -76,7 +76,7 @@ Chaque remise est cumulative, c'est-à-dire que les livrables doivent toujours r
 Évidemment, chaque *kick-off* de remise sera accompagnée d'un barème de correction de telle sorte que vous pourrez vous assurer d'avoir 100% à chaque remise ;)
 
 ## Remise 1: Étude de faisabilité (29 septembre 2020)
-Avant de se lancer dans le développement d'une application, il est important de valider que les données et technologies nécessaires au projet existent et peuvent être exploitées. Dans cette remise, vous devez écrire un document de deux pages qui maximise la description des éléments suivants
+Avant de se lancer dans le développement d'une application, il est important de valider que les données et technologies nécessaires au projet existent et peuvent être exploitées. Dans cette remise, vous devez écrire un document de deux pages qui contient des éléments suivants
 
 
 ### Rapport
@@ -107,14 +107,17 @@ Où l'objet retourné contient:
 ## Remise 2 : Dérisquer l'application
 Votre projet comporte deux grands risques: soient l'aspect infrastructure de tout connecter ensemble et importer les données externes à vos bases de données. Dans cette remise, ces deux aspects doivent être dérisqués.
 
+Dans cette remise, vous devez écrire un document de 5 pages qui contient des éléments suivants
 ### Rapport
+- Stratégie d'acquisition des données (Section 1) (revu et corrigé)
+- Technologies utilisées (Section 2) (revu et corrigé)
 - Les détails de votre processus d'ETL (Section 3)
 
 ### Application
 - Doit répondre à la requête
 
 ```
-@GET /heartbeat
+@GET /db_content
 
 returns:
 {
