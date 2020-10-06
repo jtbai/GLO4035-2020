@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 5](avancement/semaine-05.pdf)
+* [Semaine 6](avancement/semaine-06.pdf)
 
 ## Live
 [Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
@@ -10,6 +10,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 [Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY){:target="_blank"}    
 [Semaine 4 - Indexation](https://youtu.be/lkb9lPresyM){:target="_blank"}    
 [Semaine 5 - Neo4J](https://youtu.be/49IFyLJHSbQ){:target="_blank"}  
+[Semaine 6 - Warehousing](https://youtu.be/tk10CZmNniI){:target="_blank"}  
 
 
 
@@ -45,6 +46,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo){:target="_blank"}   
   * [Indexation Mongo DB](https://youtu.be/qehNybvz3lQ){:target="_blank"}    
   * [Index Géospatial Mongo DB](https://youtu.be/ageuBJ7w6t0){:target="_blank"}  
+  * [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
 
 * **Labo**  
   * Labo 1: Professeurs Université
@@ -63,26 +65,17 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Structure en mémoire
 * **Lectures**
   * DDIA: Chapitre 3
-    * Data Structure
 
 * **Capsules**
   * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA){:target="_blank"}  
   * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"} 
   * [Index (BTree + RTree)](https://youtu.be/Ym-cDh6pEjQ){:target="_blank"}  
   * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8){:target="_blank"}  
-
-### À faire pour le 6 octobre 2020
-* **Lectures**
-  * DDIA: Chapitre 3
-    * Transaction Processing or Analytics?
-    * Column-Oriented Storage
-
-* **Capsules**
   * [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
-  * [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
 
-* **Exercices**
-  * Labo 5: Portefeuille de crypto
+### À faire pour le 13 octobre 2020
+
+* Réviser pour l'examen et faire des questions de pratique !
 
 ## Exercices
 
@@ -117,6 +110,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Labo 5: Portefeuille de crypto
 * [Données](labo/labo_5/db_ulaval_actions.js)
 * [Instructions](labo/labo_5/instructions.js)
+* [Corrigé](labo/labo_5/corrige.js)
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI){:target="_blank"}  
