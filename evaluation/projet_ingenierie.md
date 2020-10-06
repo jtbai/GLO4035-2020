@@ -117,19 +117,37 @@ Dans cette remise, vous devez écrire un document de 5 pages qui contient des é
 - Doit répondre à la requête
 
 ```
-@GET /db_content
+@GET /extracted_content
 
 returns:
 {
-    "nb_restaurants":int,
-    "total_path_length":float
+    "nbRestaurants":int,
+    "nbSegments":int
 }
 
 ```
 Où l'objet retourné contient: 
-- le nombre de restaurants `nb_restaurant` contenu dans votre base de données
-- la longueur totale `total_path_length` en m de route cyclable contenue dans votre base de données
+- le nombre de restaurants `nbRestaurants` contenu dans votre base de données
+- la nombre de segments `nbSegments` dans votre base de données
 
+
+```
+@GET /transformed_content
+
+returns:
+{
+    "restaurants":{
+        $type1: int,
+        $type2: int,
+        ...
+    },
+    "travelablePathLength":float
+}
+
+```
+Où l'objet retourné contient: 
+- l'objet `restaurants` qui contient le nombre de restaurant par type dans votre BD de points de restaurants transformés
+- la valeur numérique `travelablePathLength` qui contient la longueur totale des chemins pouvant être utilisés dans votre application
 
 
 
