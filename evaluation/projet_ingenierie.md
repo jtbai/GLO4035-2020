@@ -141,13 +141,13 @@ returns:
         $type2: int,
         ...
     },
-    "travelablePathLength":float
+    "longueurCyclable":float
 }
 
 ```
 Où l'objet retourné contient: 
 - l'objet `restaurants` qui contient le nombre de restaurant par type dans votre BD de points de restaurants transformés
-- la valeur numérique `travelablePathLength` qui contient la longueur totale des chemins pouvant être utilisés dans votre application
+- la valeur numérique `longueurCyclable` qui contient la longueur totale des chemins pouvant être utilisés dans votre application
 
 
 
