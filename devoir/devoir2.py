@@ -1,6 +1,7 @@
 ### Devoir 2: La route des bières ###
 # 
 # Encore une fois, vos réponses doivent s'imprimer sur une seule ligne
+# ET sous l'indication #Q...
 
 from py2neo import Graph
 

@@ -6,7 +6,8 @@ highlightTheme: "darkula"
 
 # Semaine 6
 
-<small><div align=center>Jean-Thomas Baillargeon</small>   <small>GLO-4035 / GLO-7035</small>  </div>
+<small><div align=center>Jean-Thomas Baillargeon</small>   
+<small>GLO-4035 / GLO-7035</small>  </div>
 
 ---
 
@@ -27,6 +28,7 @@ highlightTheme: "darkula"
 ---
 
 ## Amorce
+Quels sont les dangers de construire un Data Warehouse?
 
 ---
 
@@ -59,9 +61,11 @@ highlightTheme: "darkula"
 
 ## Retour Semaine précédente
 
-* Aggrégation Mongo DB
+* Agrégation Mongo DB
   * fonction aggregate
-  * mapreduce
+    * Step by step (project, group, unwind, ...)
+  * map reduce
+    * Fonction Associative, commutative, idempotente
 
 ---
 
@@ -69,6 +73,10 @@ highlightTheme: "darkula"
 * Retour Microlabo
 * Retour remise 1
 * Kickoff remise 2
+
+---
+
+## Retour - Microlabo
 
 ---
 
