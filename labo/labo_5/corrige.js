@@ -1,10 +1,10 @@
 // En n'utilisant que la fonction aggregate
 use ulaval
 actions = db.actions
-// 1 - A quelles dates est-ce que Andrew Sheer a-t-il des transactions 
+// 1 - A quelles dates est-ce que Erin O'Toole a-t-il des transactions 
 print("#Q1")
 actions.aggregate([
-    {$match: {"client":"Andrew Sheer"}},
+    {$match: {"client":"Erin O'Toole"}},
     {$project: {"date":true}}
 ])
 print("#Q2")
