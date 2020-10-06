@@ -57,6 +57,14 @@ highlightTheme: "darkula"
 
 ---
 
+## Retour Semaine précédente
+
+* Aggrégation Mongo DB
+  * fonction aggregate
+  * mapreduce
+
+---
+
 ## Cette semaine
 * Retour Microlabo
 * Retour remise 1
