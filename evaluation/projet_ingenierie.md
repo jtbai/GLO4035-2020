@@ -117,7 +117,7 @@ Dans cette remise, vous devez écrire un document de 5 pages qui contient des é
 - Doit répondre à la requête
 
 ```
-@GET /extracted_content
+@GET /extracted_data
 
 returns:
 {
@@ -132,7 +132,7 @@ Où l'objet retourné contient:
 
 
 ```
-@GET /transformed_content
+@GET /transformed_data
 
 returns:
 {
