@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 6](avancement/semaine-06.pdf)
+* [Semaine 7](avancement/semaine-07.pdf)
 
 ## Live
 [Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
@@ -11,10 +11,13 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 [Semaine 4 - Indexation](https://youtu.be/lkb9lPresyM){:target="_blank"}    
 [Semaine 5 - Neo4J](https://youtu.be/49IFyLJHSbQ){:target="_blank"}  
 [Semaine 6 - Warehousing](https://youtu.be/tk10CZmNniI){:target="_blank"}  
+[Semaine 7 - Revision](https://youtu.be/Fh99gYM7RdI){:target="_blank"}  
 
+## Banque de questions
+* [Application](banque_question.zip)
 
+## Évaluations
 
-## Évaluations 
 ### Devoirs
 * [Devoir 2 - Ennonce](devoir/devoir2.py) (13 octobre 2020)  
 * [Devoir 2 - schéma 1 des données](devoir/schema_1.svg)  
@@ -56,7 +59,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ### Neo4J
 * **Lectures**
   * DDIA: Chapitre 2
-    * Graph-Like Data Models
+    * Graph-Like Data Models - Property Graph + Cypher
 * **Capsules**
   * [Neo4J](https://youtu.be/Z-WOzomxQeI){:target="_blank"}  
 * **Labo**
