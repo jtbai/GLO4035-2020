@@ -35,11 +35,11 @@ Quels sont les dangers de construire un Data Warehouse?
 ## Retour Semaine précédente
 
 * OLTP vs OLAP
-  * Lecture entry: 1 vs all
-  * Écriture: 1 vs all
+  * Lecture : 1 vs all
+  * Écriture: random vs bulk
 * Warehousing
   * Différents utilisateurs = Différents besoins  
-  * Même données = possibilité d'incohérence
+  * Même données => possibilité d'incohérence
 * Processus d'ETL 
   * Simple d'agréger 
   * Avoir des données dans le bon format 
