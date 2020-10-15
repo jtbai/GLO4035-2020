@@ -18,6 +18,8 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Code Source](https://github.com/jtbai/question_bank)
 
 ## Évaluations
+### Examen Intra
+* [Contexte pour Questions Pratique](evaluation/examen-intra/pratique.pdf)
 
 ### Devoirs
 * [Devoir 2 - Ennonce](devoir/devoir2.py) (13 octobre 2020)  
