@@ -21,6 +21,10 @@ De retour après la relâche !
 [Ponderation](evaluation/ponderation.md)  
 [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
 
+### Présentation Orale (GLO-7035)
+[Devis] (evaluation/oral.md)
+[Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
+
 ## Matière
 
 ### À faire pour le 3 novembre 2020
