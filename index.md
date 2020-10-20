@@ -2,31 +2,20 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 7](avancement/semaine-07.pdf)
+De retour après la relâche !
 
 ## Live
-[Semaine 1 - Intro](https://youtu.be/8pFhlYkSSQk){:target="_blank"}  
-[Semaine 2 - Modélisation](https://youtu.be/38N_fREJuHk){:target="_blank"}    
-[Semaine 3 - Mongo DB](https://youtu.be/e-YVmrsOjDY){:target="_blank"}    
-[Semaine 4 - Indexation](https://youtu.be/lkb9lPresyM){:target="_blank"}    
-[Semaine 5 - Neo4J](https://youtu.be/49IFyLJHSbQ){:target="_blank"}  
-[Semaine 6 - Warehousing](https://youtu.be/tk10CZmNniI){:target="_blank"}  
-[Semaine 7 - Revision](https://youtu.be/Fh99gYM7RdI){:target="_blank"}  
+De retour après la relâche !
 
 ## Banque de questions
 * [Application](banque_question.zip)
 * [Code Source](https://github.com/jtbai/question_bank)
 
 ## Évaluations
-### Examen Intra
-* [Contexte pour Questions Pratique](evaluation/examen-intra/pratique.pdf)
-
-### Devoirs
-* [Devoir 2 - Ennonce](devoir/devoir2.py) (13 octobre 2020)  
-* [Devoir 2 - schéma 1 des données](devoir/schema_1.svg)  
 
 ### Formative
 [Gabarit - Formative 1](evaluation/formative.md)
+
 ### Projet
 [Velo épicurien](evaluation/projet_ingenierie.md)  
 [Ponderation](evaluation/ponderation.md)  
@@ -34,89 +23,14 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Matière
 
-### Desing d'application
-* **Lecture**
-  * DDIA: Chapitre 1 
-  * DDIA: Chapitre 2
-    * Relational Model Versus Document Model
-    * Query Language for Data
-* **Capsules**
-  * [Introduction aux BD avancées](https://youtu.be/7lwjnHQb0TQ){:target="_blank"}  
-
-* **Labo**
-  * Étude de cas: Modéliser votre Nextflix
-
-### Mongo DB
-* **Capsules** 
-  * [MongoDB - CRUD](https://www.youtube.com/watch?v=7Q9DW_-8GnY){:target="_blank"}  
-  * [MongoDB - Requêtes avancées](https://www.youtube.com/watch?v=iKDONxl1yZo){:target="_blank"}   
-  * [Indexation Mongo DB](https://youtu.be/qehNybvz3lQ){:target="_blank"}    
-  * [Index Géospatial Mongo DB](https://youtu.be/ageuBJ7w6t0){:target="_blank"}  
-  * [MongoDB - Aggregation](https://youtu.be/p2335pziSAA){:target="_blank"}  
-
-* **Labo**  
-  * Labo 1: Professeurs Université
-  * Labo 2: Cours Université
-  * Labo 3: Commerces campus
-
-### Neo4J
-* **Lectures**
-  * DDIA: Chapitre 2
-    * Graph-Like Data Models - Property Graph + Cypher
-* **Capsules**
-  * [Neo4J](https://youtu.be/Z-WOzomxQeI){:target="_blank"}  
-* **Labo**
-  * Labo 4: Liaison Filmographique
-
-### Structure en mémoire
-* **Lectures**
-  * DDIA: Chapitre 3
+### À faire pour le 3 novembre 2020
 
 * **Capsules**
-  * [Données Géographique et Textuelles](https://youtu.be/ySk6abWu_BA){:target="_blank"}  
-  * [Graphe Attribué](https://youtu.be/gk1O3WNc6io){:target="_blank"} 
-  * [Index (BTree + RTree)](https://youtu.be/Ym-cDh6pEjQ){:target="_blank"}  
-  * [Index (LSM TREE)](https://youtu.be/0OWWE6UyIg8){:target="_blank"}  
-  * [Warehousing](https://youtu.be/vI4BsigwDyg){:target="_blank"}  
-
-### À faire pour le 13 octobre 2020
-
-* Réviser pour l'examen et faire des questions de pratique !
+  * [Mongo - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
 
 ## Exercices
+De retour après la relâche !
 
-### Étude de cas: Modéliser votre Nextflix
-  * [Présentation des cas](https://youtu.be/yyWzsjuJvdk)
-
-
-### Labo 1 - Professeurs Université
-* [Présentation](https://youtu.be/7FiYAWaPPGc){:target="_blank"}  
-* [Données](labo/labo_1/bd_ulaval.json)  
-* [Instructions](labo/labo_1/instructions.js)  
-* [Correction](labo/labo_1/correction.js)  
-* [Import](labo/labo_1/import_script.js)  
-
-### Labo 2 - Cours Univeristé
-* [Présentation](https://youtu.be/HkIB3csR2AU){:target="_blank"}  
-* [Données](labo/labo_2/bd_ulaval_cours.json)  
-* [Instructions](labo/labo_2/instructions.js)  
-* [Corrigé](labo/labo_2/correction.js)
-
-### Labo 3 - Commerces campus
-* [Données](labo/labo_3/donnees.json)
-* [Instructions](labo/labo_3/instructions.js)
-* [Corrigé](labo/labo_3/correction.js)
-
-### Labo 4: Liaison Filmographique
-* [Présentation](https://youtu.be/86z2_T_yk7w){:target="_blank"}  
-* [Données](labo/labo_4/donnees_film.txt)
-* [Instructions](labo/labo_4/instructions.txt)
-* [Corrigé](labo/labo_4/corrections.txt)
-
-### Labo 5: Portefeuille de crypto
-* [Données](labo/labo_5/db_ulaval_actions.js)
-* [Instructions](labo/labo_5/instructions.js)
-* [Corrigé](labo/labo_5/corrige.js)
 
 ## Mise en place techno
 * [Mise en place - VM + Docker](https://youtu.be/RFxvC6cd7eI){:target="_blank"}  
@@ -127,5 +41,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 
 ## House Keeping
+[Archive mi-session](misession.md)  
 [Horaire matière A20](/avancement/horaire.md){:target="_blank"}    
 [Teams GLO4035 - GLO7035 A20](https://teams.microsoft.com/l/team/19%3a4a2a1eece87e41c0ba2cec9995d571d9%40thread.tacv2/conversations?groupId=f8b677e5-52e9-4a99-843a-3f500ba30577&tenantId=56778bd5-6a3f-4bd3-a265-93163e4d5bfe){:target="_blank"}  
