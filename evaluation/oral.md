@@ -5,12 +5,10 @@ Présentation de nouvelles bases de données. La présentation doit permettre au
 
 ### Type bases de données:
 
+
 #### Thèmes
 
-- Cassandra 
-- Les messages Cues (redis)
-- InfluxDB (time series db)
-- BD par colonnes
+Choisir une base de données autre que "relationnelle" parmi la liste à l'adresse suivante (https://db-engines.com/en/ranking). Une seule équipe par BD - premier arrivé, premier servi!
 
 #### Contenu
 - Présenter la base de données
