@@ -199,7 +199,7 @@ Le point de départ est un objet géographique de type `GeoPoint`
 ```
 @GET /starting-point (avec le payload):
 {
-    "maximum_length": int (en mètre),
+    "maximumLength": int (en mètre),
     "type": [str, str, ... ]
 }
 
