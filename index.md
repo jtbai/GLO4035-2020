@@ -5,7 +5,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 De retour après la relâche !
 
 ## Live
-De retour après la relâche !
+* [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
 
 ## Banque de questions
 * [Application](banque_question.zip)
