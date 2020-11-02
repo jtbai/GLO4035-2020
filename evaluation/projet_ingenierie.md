@@ -36,7 +36,7 @@ D'un point de vue technique, l'application doit
 ## Rapport technique
 Le rapport technique est le document qui sera lu par les investisseurs potentiels­. Ces derniers s'attendent à trouver les éléments suivants:
 
-- Introducion **(1 point)**
+- Introduction **(1 point)**
     - Explication de la problématique
     - Sommaire de la solution 
     - Présentation du rapport
