@@ -13,4 +13,11 @@
  7 |	13 oct	|	Revision				
  EXAM | 	17 oct			|			
  8 | 	20 oct		|				
- 9 | 	27 oct		|LECTURE				
+ 9 | 	27 oct		|LECTURE			
+ 10 |	3 nov	| Retour Mi-Session	 |	ES	| 	| TP 3 | 
+ 11 |	10 nov	| ES1	 |	ES2	| 	| Devoir 3 | 
+ 12 |	17 nov	| ES2	 |	Replication	| CHAP 5	|  | 
+ 13 |	24 nov	| Replication	 |	Partitionnement	| CHAP 6	|  | D3
+ 14 |	1 déc	| Partitionnement	 |	A Venir	| A Venir |  | 
+ 15 |	8 déc	| DDIA |	Oraux + Revision | |  | TP 3 (4035) / Oral (7035)
+ EXAM  |	15 déc	| |                   | |  | TP 3 (7035)

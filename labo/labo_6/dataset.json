@@ -1,0 +1,27 @@
+[
+    {
+        "nom": "Richard Khoury",
+        "âge": 35,
+        "cheveux": "brun",
+        "bureau": "PLT-3945",
+        "recherche": ["big data", "classification"],
+        "biographie": "Mes intérêts de recherche sont en forage de données et en NLP, et incluent de plus la gestion des connaissances, l’apprentissage automatique, et l’intelligence artificielle.",
+        "subventions": [25000,100000]
+    },{
+        "nom": "Claude-Guy Quimper",
+        "âge": 37,
+        "bureau": "PLT-3986",
+        "recherche": ["optimisation", "programmation par contraintes"],
+        "tâches": ["séminaires départementaux"],
+        "biographie": "Je m'intéresse à la recherche en satisfaction et optimisation de problèmes combinatoires à l'aide de la programmation par contraintes.",
+        "subventions": [45000,50000,55000]
+    },{
+        "nom": "Luc Lamontagne",
+        "âge": 45,
+        "bureau": "PLT-3990",
+        "recherche": ["NLP","CBR","big data"],
+        "biographie": "Mes intérêts principaux de recherche sont l'exploration du raisonnement à base de cas (CBR) pour la conception de systèmes de recommandation et d’aide à la décision.",
+        "subventions": [15000,20000]
+    }
+
+]

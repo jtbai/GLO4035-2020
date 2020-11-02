@@ -27,13 +27,23 @@ De retour après la relâche !
 
 ## Matière
 
-### À faire pour le 3 novembre 2020
+### Mongo DB
+* **Capsules** 
+  * [MongoDB - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
+
+### À faire pour le 10 novembre 2020
 
 * **Capsules**
-  * [Mongo - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
+  * [Elastic Search - Intro](https://youtu.be/2rttJaMxezY){:target="_blank"}  
+  * [Elastic Search - Exemple Recherche Avancée](https://youtu.be/TdehQKWGtjU){:target="_blank"}  
+
+* **Labo**
+  * Labo 6
 
 ## Exercices
-De retour après la relâche !
+### Labo 6 - Intérêt de recherche
+* [Données](labo/labo_6/dataset.json)  
+* [Instructions](labo/labo_6/instructions.py)  
 
 
 ## Mise en place techno
