@@ -222,7 +222,7 @@ Ces objets sont soit un
     - `Point`, représentant des restaurants, avec les propriétés `name` et `type` représentant respectivement le nom et le type du restaurant,  
     - `MultiLineString`, représentant les segments cyclables, avec la propriété `lenght` représentant la longueur du segment  
 
-Assurez-vous de bien suivre le format demandé par le standard [RFC-7946](https://tools.ietf.org/html/rfc7946#section-3.3), et validez vos parcours avec un utilitaire tel [GeoJSONlint](https://geojsonlint.com/). Un exemple de parcours est fourni [ici](evaluation/remise3/exemple_parcours.json)
+Assurez-vous de bien suivre le format demandé par le standard [RFC-7946](https://tools.ietf.org/html/rfc7946#section-3.3), et validez vos parcours avec un utilitaire tel [GeoJSONlint](https://geojsonlint.com/). Un exemple de parcours est fourni [ici](remise3/exemple_parcours.json)
 
 ```
 @GET /parcours (avec le payload):
