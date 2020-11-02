@@ -216,11 +216,13 @@ Cet appel permet à un utilisateur ou une application cliente d'obtenir:
 - le trajet à au plus (et de préférence) `numberOfStops` arrets
 - qui sont des restaurants inclus dans les types définis dans le tableau `type`
 
-Le trajet obtenu est objet GeoJSON de type `featureCollection`, soit une liste d'éléments géographiques. 
+Le trajet obtenu est objet GeoJSON de type `featureCollection`, soit une liste d'éléments géographiques.
 
 Ces objets sont soit un
     - `Point`, représentant des restaurants, avec les propriétés `name` et `type` représentant respectivement le nom et le type du restaurant,
     - `MultiLineString`, représentant les segments cyclables, avec la propriété `lenght` représentant la longueur du segment
+
+ Assurez-vous de bien suivre le format demandé par le standard [RFC-7946](https://tools.ietf.org/html/rfc7946#section-3.3), et validez vos parcours avec un utilitaire tel [GeoJSONlint](https://geojsonlint.com/). Un exemple de parcours est fourni [ici](evaluation/remise3/exemple_parcours.json)
 
 ```
 @GET /parcours (avec le payload):

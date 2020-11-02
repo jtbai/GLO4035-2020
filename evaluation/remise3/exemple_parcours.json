@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+        "type":"Feature",
+        "geometry":{
+        "type": "Point",
+        "coordinates":  [-71.234884, 46.811777]
+        },
+        "properties":{
+            "name":"Le Griendel",
+            "Type":"Microbrasserie"
+        }
+    },
+    {
+        "type":"Feature",
+        "geometry":{
+            "type": "MultiLineString",
+            "coordinates": [[
+                [-71.238428, 46.812163],  [-71.234915,  46.811870], [-71.233209, 46.811442],  [-71.232902, 46.811565]
+                ]]
+        },
+        "properties":{
+            "length":0.5
+        }
+    },
+    {
+        "type":"Feature",
+        "geometry":{
+        "type": "Point",
+        "coordinates":       [-71.232945, 46.811638]
+        },
+        "properties":{
+            "name":"Patente et Machins",
+            "type":"Français"
+        }
+    },
+    {
+        "type":"Feature",
+        "geometry":{
+            "type": "MultiLineString",
+            "coordinates": [[
+                [-71.232902, 46.811565],  [-71.223578, 46.814555], [-71.223203, 46.814072 ]
+                ]]
+        },
+        "properties":{
+            "length":1.0
+        }
+    },
+    {
+        "type":"Feature",
+        "geometry":{
+        "type": "Point",
+        "coordinates":       [-71.223327, 46.814040]
+        },
+        "properties":{
+            "name":"Le Noctem",
+            "Type":"Microbrasserie"
+        }
+    }
+]
+}
