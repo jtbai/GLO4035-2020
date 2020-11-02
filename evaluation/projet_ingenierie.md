@@ -192,7 +192,8 @@ returns:
 #### Obtenir un point de départ 
 Cet appel permet à un utilisateur ou une application cliente d'obtenir un point de départ aléatoire:
 - d'un trajet d'une longueur `maximum_length` ± 10%
-- comprenant des restaurants inclus dans les types définis dans le tableau `type`
+- comprenant des restaurants inclus dans les types définis dans le tableau `type` et
+- si le tableau `type` est vide, on assume que tous les types sont possibles
 
 Le point de départ est un objet géographique de type `GeoPoint`
 
@@ -214,13 +215,14 @@ Cet appel permet à un utilisateur ou une application cliente d'obtenir:
 - un trajet partant d'un point dans un rayon de 500m du point `startingPoint`
 - le trajet obtenu est d'une longueur de `maximumLength` ± 10%
 - le trajet à au plus (et de préférence) `numberOfStops` arrets
-- qui sont des restaurants inclus dans les types définis dans le tableau `type`
+- qui sont des restaurants inclus dans les types définis dans le tableau `type` et 
+- si le tableau `type`est vide, on assume que tous les types sont possibles
 
 Le trajet obtenu est objet GeoJSON de type `featureCollection`, soit une liste d'éléments géographiques.
 
-Ces objets sont soit un  
-    - `Point`, représentant des restaurants, avec les propriétés `name` et `type` représentant respectivement le nom et le type du restaurant,  
-    - `MultiLineString`, représentant les segments cyclables, avec la propriété `lenght` représentant la longueur du segment  
+Ces objets sont soit
+    - un `Point`, représentant des restaurants, avec les propriétés `name` et `type` représentant respectivement le nom et le type du restaurant, soit 
+    - un `MultiLineString`, représentant les segments cyclables, avec la propriété `lenght` représentant la longueur du segment  
 
 Assurez-vous de bien suivre le format demandé par le standard [RFC-7946](https://tools.ietf.org/html/rfc7946#section-3.3), et validez vos parcours avec un utilitaire tel [GeoJSONlint](https://geojsonlint.com/). Un exemple de parcours est fourni [ici](remise3/exemple_parcours.json)
 
@@ -241,22 +243,22 @@ returns:
             "type":"Feature",
             "geometry":{
                 "type": "Point",
-                "coordinates":  [<float>, <float>]
+                "coordinates":  [float, float]
             },
             "properties":{
-                "name":<str>,
-                "type":<str>
+                "name":str,
+                "type":str
             }
         }, ..., {
             "type":"Feature",
             "geometry":{
                 "type": "MultiLineString",
                 "coordinates": [[
-                     [<float>, <float>],  [<float>, <float>],  [<float>, <float>], ...
+                     [float, float],  [float, float],  [float, float], ...
                     ]]
             },
             "properties":{
-                "length":<float>
+                "length":float
             }
         }
     ]
