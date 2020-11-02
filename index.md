@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-De retour après la relâche !
+* [Semaine 10]
 
 ## Live
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
@@ -22,7 +22,7 @@ De retour après la relâche !
 [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
 
 ### Présentation Orale (GLO-7035)
-[Devis](evaluation/oral.md)
+[Devis](evaluation/oral.md)  
 [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
 
 ## Matière

@@ -205,46 +205,58 @@ Le point de départ est un objet géographique de type `GeoPoint`
 
 returns:
 {
-    "starting_point" : {"type":"Point", "coordinates":[float, float]}
+    "startingPoint" : {"type":"Point", "coordinates":[float, float]}
 }
 ```
 
 #### Générer un parcours 
 Cet appel permet à un utilisateur ou une application cliente d'obtenir: 
-- un trajet partant d'un point dans un rayon de 500m du point `starting_point`
-- le trajet obtenu est d'une longueur de `maximum_length` ± 10%
-- le trajet à au plus (et de préférence) `number_of_stops` arrets
+- un trajet partant d'un point dans un rayon de 500m du point `startingPoint`
+- le trajet obtenu est d'une longueur de `maximumLength` ± 10%
+- le trajet à au plus (et de préférence) `numberOfStops` arrets
 - qui sont des restaurants inclus dans les types définis dans le tableau `type`
 
-Le trajet obtenu est une liste de 
-- segments définis comme une paire
-    - d'objet géographique `path` de type LineString
-    - d'objet restaurant  `restaurant`
+Le trajet obtenu est objet GeoJSON de type `featureCollection`, soit une liste d'éléments géographiques. 
+
+Ces objets sont soit un
+    - `Point`, représentant des restaurants, avec les propriétés `name` et `type` représentant respectivement le nom et le type du restaurant,
+    - `MultiLineString`, représentant les segments cyclables, avec la propriété `lenght` représentant la longueur du segment
 
 ```
 @GET /parcours (avec le payload):
 {
-    "starting_point" : {"type":"Point", "coordinates":[float, float]},
-    "maximum_length": int (en mètre),
-    "number_of_stops": int,
+    "startingPoint" : {"type":"Point", "coordinates":[float, float]},
+    "maximumLength": int (en mètre),
+    "numberOfStops": int,
     "type": [str, str, ... ]
 }
 
 returns:
-[
-    {
-        "segment_id":1,
-       "path": {
-           "type":"LineString", 
-           "coordinates":[[float, float], [float, float]]
-        },
-        "restaurant": {
-            "name": string,
-            "type": string,
-            "cote": float,
-    },{
-        "segment_id":2,
-        ....   
-    }
-]
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type":"Feature",
+            "geometry":{
+                "type": "Point",
+                "coordinates":  [<float>, <float>]
+            },
+            "properties":{
+                "name":<str>,
+                "type":<str>
+            }
+        }, ..., {
+            "type":"Feature",
+            "geometry":{
+                "type": "MultiLineString",
+                "coordinates": [[
+                     [<float>, <float>],  [<float>, <float>],  [<float>, <float>], ...
+                    ]]
+            },
+            "properties":{
+                "length":<float>
+            }
+        }
+    ]
+}
 ```
