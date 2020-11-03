@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 10]
+* [Semaine 10](avancement/semaine-10.pdf)
 
 ## Live
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
