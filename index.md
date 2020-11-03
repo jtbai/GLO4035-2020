@@ -8,7 +8,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
 
 ## Banque de questions
-* [Application](banque_question.zip)
+* [Application](banque_question.zip)  
 * [Code Source](https://github.com/jtbai/question_bank)
 
 ## Évaluations
@@ -17,13 +17,13 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 [Gabarit - Formative 1](evaluation/formative.md)
 
 ### Projet
-[Velo épicurien](evaluation/projet_ingenierie.md)  
-[Ponderation](evaluation/ponderation.md)  
-[Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
+* [Velo épicurien](evaluation/projet_ingenierie.md)  
+* [Ponderation](evaluation/ponderation.md)  
+* [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
 
 ### Présentation Orale (GLO-7035)
-[Devis](evaluation/oral.md)  
-[Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
+* [Devis](evaluation/oral.md)  
+* [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
 
 ## Matière
 
