@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "baa0b456-4d56-5a1f-c514-a29217fd8242",
+		"name": "glo-4035",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Remise2",
+			"item": [
+				{
+					"name": "Heartbeat",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "5ff29af6-7bf7-4bed-8c1b-db9458d08ee1",
+								"exec": [
+									"pm.test(\"heartbeat - villeChoisie - 0.5\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.have.property(\"villeChoisie\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:{{port}}/heartbeat",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "{{port}}",
+							"path": [
+								"heartbeat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Extracted Data",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "fd664620-406b-431a-b2ea-1496f2066bf9",
+								"exec": [
+									"pm.test(\"extracted - property nbRestaurant - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.have.property(\"nbRestaurants\");",
+									"});",
+									"",
+									"pm.test(\"extracted - nbRestaurant > 0 - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.nbRestaurants).to.be.gt(0);",
+									"});",
+									"",
+									"pm.test(\"extracted - property nbSegments - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.have.property(\"nbSegments\");",
+									"});",
+									"",
+									"pm.test(\"extracted - nbSegment > 0 - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.nbSegments).to.be.gt(0);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:{{port}}/extracted_data",
+							"host": [
+								"localhost"
+							],
+							"port": "{{port}}",
+							"path": [
+								"extracted_data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Transformed Data",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7c8ff1a8-3f86-4525-962b-ee6237b05b55",
+								"exec": [
+									"pm.test(\"transformed - property restaurants - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.have.property(\"restaurants\");",
+									"});",
+									"",
+									"pm.test(\"transformed - restaurant is array - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.restaurants).to.be.an('object');",
+									"});",
+									"",
+									"pm.test(\"transformed - restaurant had > 1 type - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(Object.keys(jsonData.restaurants).count()).to.be.gt(1);",
+									"});",
+									"",
+									"pm.test(\"transformed - property longueurCyclable - 0.25\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.have.property(\"longueurCyclable\");",
+									"});",
+									"",
+									"pm.test(\"transformed - longueurCyclable > 0 - 0.50\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.longueurCyclable).to.be.gt(0);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:{{port}}/transformed_data",
+							"host": [
+								"localhost"
+							],
+							"port": "{{port}}",
+							"path": [
+								"transformed_data"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Test pour la remise 2",
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

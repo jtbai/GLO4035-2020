@@ -20,6 +20,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Velo épicurien](evaluation/projet_ingenierie.md)  
 * [Ponderation](evaluation/ponderation.md)  
 * [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
+* [Évaluation - Requêtes](evaluation/velo_epicurien_requests.json)
 
 ### Présentation Orale (GLO-7035)
 * [Devis](evaluation/oral.md)  
