@@ -2,9 +2,10 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 10](avancement/semaine-10.pdf)
+* [Semaine 10](avancement/semaine-11.pdf)
 
 ## Live
+* [Semaine 11 - ElasticSearch](https://youtu.be/4PuJbp0RViE){:target="_blank"}  
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
 
 ## Banque de questions
@@ -32,8 +33,8 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * **Capsules** 
   * [MongoDB - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
 
-### À faire pour le 10 novembre 2020
 
+### Elastic Search
 * **Capsules**
   * [Elastic Search - Intro](https://youtu.be/2rttJaMxezY){:target="_blank"}  
   * [Elastic Search - Exemple Recherche Avancée](https://youtu.be/TdehQKWGtjU){:target="_blank"}  
@@ -41,10 +42,32 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * **Labo**
   * Labo 6
 
+
+### À faire pour le ~~17~~ 24 novembre 2020
+
+* **Capsules**
+  * [Elastic Search - Recherche avancée](https://youtu.be/0dcX1di1F6o){:target="_blank"}  
+  * [Elastic Search - Paramétrisation avancée](https://youtu.be/5skhl5-vWxg){:target="_blank"}  
+  * [Elastic Search - Recherche encore plus avancée](https://youtu.be/T_6BMj_h_Ng){:target="_blank"}  
+  * [Elastic Search - Agrégation](https://youtu.be/ns0nv1Y2HJ0){:target="_blank"}  
+  * [Elastic Search - Géolocalisation](https://youtu.be/8M_hts0FjhI){:target="_blank"}  
+
+* **Labo**
+  * Labo 7
+
 ## Exercices
+
+### Labo 7 - Labo Inversé!
+* [Présentation]
+* [Données](labo/labo_7/dataset.zip)  
+* [Importation des données](labo/labo_7/data_import.py) - à vous de jouer!
+* [Corrigé](labo/labo_7/instructions.py)  
+
+
 ### Labo 6 - Intérêt de recherche
 * [Données](labo/labo_6/dataset.json)  
 * [Instructions](labo/labo_6/instructions.py)  
+* [Corrigé](labo/labo_6/instructions_corrige.py)  
 
 
 ## Mise en place techno

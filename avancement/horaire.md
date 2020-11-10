@@ -14,7 +14,7 @@
  EXAM | 	17 oct			|			
  8 | 	20 oct		|				
  9 | 	27 oct		|LECTURE			
- 10 |	3 nov	| Retour Mi-Session	 |	ES	| 	| TP 3 | 
+ 10 |	3 nov	| Retour Mi-Session	 |	ES1	| 	| TP 3 | 
  11 |	10 nov	| ES1	 |	ES2	| 	| Devoir 3 | 
  12 |	17 nov	| ES2	 |	Replication	| CHAP 5	|  | 
  13 |	24 nov	| Replication	 |	Partitionnement	| CHAP 6	|  | D3
