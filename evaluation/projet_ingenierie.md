@@ -107,7 +107,7 @@ Où l'objet retourné contient:
 ## Remise 2 : Dérisquer l'application
 Votre projet comporte deux grands risques: soient l'aspect infrastructure de tout connecter ensemble et importer les données externes à vos bases de données. Dans cette remise, ces deux aspects doivent être dérisqués.
 
-Dans cette remise, vous devez écrire un document de 5 pages qui contient des éléments suivants
+Dans cette remise, vous devez écrire un document de 5 pages qui contient les éléments suivants en plus de ceux des remises précédentes.
 ### Rapport
 - Stratégie d'acquisition des données (Section 1) (revu et corrigé)
 - Technologies utilisées (Section 2) (revu et corrigé)
@@ -152,7 +152,7 @@ Où l'objet retourné contient:
 
 
 ## Remise 3: Présenter le MVP
-Il s'agit de la remise de l'application MVP prête à présenter aux investisseurs
+Il s'agit de la remise de l'application MVP prête à présenter aux investisseurs. Dans cette remise, vous devez écrire un document de 10 pages qui contient les éléments suivants en plus de ceux des remises précédentes.
 
 
 ### Rapport 
