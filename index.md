@@ -5,6 +5,7 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Semaine 10](avancement/semaine-11.pdf)
 
 ## Live
+* [Semaine 12 - Calm before the ~~storm~~ more calm](https://youtu.be/EqU-Z0s8gH4){:target="_blank"}  
 * [Semaine 11 - ElasticSearch](https://youtu.be/4PuJbp0RViE){:target="_blank"}  
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
 
