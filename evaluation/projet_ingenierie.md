@@ -198,7 +198,7 @@ Cet appel permet à un utilisateur ou une application cliente d'obtenir un point
 Le point de départ est un objet géographique de type `GeoPoint`
 
 ```
-@GET /starting-point (avec le payload):
+@GET /starting_point (avec le payload):
 {
     "maximumLength": int (en mètre),
     "type": [str, str, ... ]
