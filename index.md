@@ -2,7 +2,7 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 10](avancement/semaine-11.pdf)
+* [Semaine 12](avancement/semaine-12.pdf)
 
 ## Live
 * [Semaine 12 - Calm before the ~~storm~~ more calm](https://youtu.be/EqU-Z0s8gH4){:target="_blank"}  
