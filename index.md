@@ -2,9 +2,10 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 12](avancement/semaine-12.pdf)
+* [Semaine 13](avancement/semaine-13.pdf)
 
 ## Live
+* [Semaine 13 - Replication](https://youtu.be/5FCKIq5fmmM){:target="_blank"}  
 * [Semaine 12 - Calm before the ~~storm~~ more calm](https://youtu.be/EqU-Z0s8gH4){:target="_blank"}  
 * [Semaine 11 - ElasticSearch](https://youtu.be/4PuJbp0RViE){:target="_blank"}  
 * [Semaine 10 - Retour Mi-Session](https://youtu.be/dhOnNJa_Vx4){:target="_blank"}  
@@ -16,7 +17,8 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Évaluations
 
 ### Formative
-[Gabarit - Formative 1](evaluation/formative.md)
+[Devoir 3](devoir/devoir3.py)
+
 
 ### Projet
 * [Velo épicurien](evaluation/projet_ingenierie.md)  
@@ -39,14 +41,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * **Capsules**
   * [Elastic Search - Intro](https://youtu.be/2rttJaMxezY){:target="_blank"}  
   * [Elastic Search - Exemple Recherche Avancée](https://youtu.be/TdehQKWGtjU){:target="_blank"}  
-
-* **Labo**
-  * Labo 6
-
-
-### À faire pour le ~~17~~ 24 novembre 2020
-
-* **Capsules**
   * [Elastic Search - Recherche avancée](https://youtu.be/0dcX1di1F6o){:target="_blank"}  
   * [Elastic Search - Paramétrisation avancée](https://youtu.be/5skhl5-vWxg){:target="_blank"}  
   * [Elastic Search - Recherche encore plus avancée](https://youtu.be/T_6BMj_h_Ng){:target="_blank"}  
@@ -54,7 +48,18 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * [Elastic Search - Géolocalisation](https://youtu.be/8M_hts0FjhI){:target="_blank"}  
 
 * **Labo**
+  * Labo 6
   * Labo 7
+
+
+### À faire pour le 1 décembre 2020
+
+* **Capsules**
+  * [DDIA - Replication](https://youtu.be/QAKg-DNKR0w)
+  * [MongoDB - Replication](https://youtu.be/YXAfZ8dJ3Us)
+
+* **Lectures**
+  * DDIA: Chapitre 5 - Replication
 
 ## Exercices
 
