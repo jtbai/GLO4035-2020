@@ -4,10 +4,11 @@ ELASTICSEARCH_PORT = 9200
 
 elastic_search_client = Elasticsearch(ELASTICSERACH_HOST,port=ELASTICSEARCH_PORT)
 NOM_INDEX_COMMERCE = "commerce"
-NOM_DOCTYPE_COMMERCE = "doc"
+NOM_DOCTYPE_COMMERCE = "_doc"
 
 NOM_INDEX_QUEBEC = "quebec"
-NOM_DOCTYPE_QUEBEC = "doc"
+NOM_DOCTYPE_QUEBEC = "_doc"
+
 
 
 def extract_hit_list(elastic_search_results, name_field):
@@ -54,13 +55,14 @@ updated_distance_query = {"query":{
                     {"term": {"type": "microbrasserie"}},
                     {"term": {"type": "pub"}}],
             "filter":{"geo_distance": {"distance": "1km", "emplacement": PLT}}
+
         },
     }
 }
 restaurant_documents_within_distance = elastic_search_client.search(index=NOM_INDEX_COMMERCE, doc_type=NOM_DOCTYPE_COMMERCE, body=updated_distance_query)
 
 print(extract_hit_list(restaurant_documents_within_distance, 'nom'))
-#Rep : ['Le Pub', '3 Brasseurs', 'Saveur Campus ']
+#Rep : ['3 Brasseurs']
 
 
 ### Question 5: Trouvez les restaurants à un KM du plt mais avec une fonction spéciale de triage
@@ -79,7 +81,7 @@ query_with_distance_weigth = {"query": {
 document_score_with_distance = elastic_search_client.search(index=NOM_INDEX_COMMERCE, doc_type=NOM_DOCTYPE_COMMERCE, body=query_with_distance_weigth)
 
 print(extract_hit_list(document_score_with_distance, 'nom'))
-# Rep ['Le Pub', '3 Brasseurs', 'Saveur Campus ']
+# ['3 Brasseurs', 'Le Pub', 'Saveur Campus ']
 
 
 #### Question 6: Trouvez tous les commerces à l'intérieur de forme "Université Laval"
