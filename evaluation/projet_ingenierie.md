@@ -175,7 +175,7 @@ Cet appel permet de recevoir un fichier readme (en markdown) qui contient tous l
 
 #### Obtenir la liste des types disponibles
 Cet appel permet à un utilisateur ou a une application d'obtenir tous les types de parcours disponibles.
-Il s'agit tout simplement de la liste des types de restaurants disponibles dans votre base de données
+Il s'agit tout simplement de la liste des types de restaurants disponibles dans votre base de donnéest
 
 ```
 @GET /type
@@ -258,7 +258,7 @@ returns:
                     ]]
             },
             "properties":{
-                "length":float
+                "length":float (en mètres)
             }
         }
     ]
