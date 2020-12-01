@@ -2,9 +2,11 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 13](avancement/semaine-13.pdf)
+* [Semaine 14](avancement/semaine-14.pdf)
 
 ## Live
+
+* [Semaine 14 - Fragmentation](https://youtu.be/mYmyv52y3Dk){:target="_blank"}  
 * [Semaine 13 - Replication](https://youtu.be/5FCKIq5fmmM){:target="_blank"}  
 * [Semaine 12 - Calm before the ~~storm~~ more calm](https://youtu.be/EqU-Z0s8gH4){:target="_blank"}  
 * [Semaine 11 - ElasticSearch](https://youtu.be/4PuJbp0RViE){:target="_blank"}  
