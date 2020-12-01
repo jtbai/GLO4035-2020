@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "baa0b456-4d56-5a1f-c514-a29217fd8242",
+		"_postman_id": "51e1058e-15ff-471f-bd9f-040274f80aab",
 		"name": "glo-4035",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -14,7 +14,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5ff29af6-7bf7-4bed-8c1b-db9458d08ee1",
+								"id": "10994368-1efe-4081-a9da-f547bfb514be",
 								"exec": [
 									"pm.test(\"heartbeat - villeChoisie - 0.5\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -48,7 +48,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "fd664620-406b-431a-b2ea-1496f2066bf9",
+								"id": "e0689108-489d-482d-8c06-48e0021ecda7",
 								"exec": [
 									"pm.test(\"extracted - property nbRestaurant - 0.25\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -97,7 +97,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "7c8ff1a8-3f86-4525-962b-ee6237b05b55",
+								"id": "164b23e8-23d6-4ec1-b567-f35538e0755d",
 								"exec": [
 									"pm.test(\"transformed - property restaurants - 0.25\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -158,12 +158,13 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "b9d4c9d5-1e65-45c1-aa57-4e513e5f1401",
+								"id": "f8a9a7d0-2724-474b-9e51-954330a9c066",
 								"exec": [
+									"pm.test(\"setGetLongueurCyclable\", function(){",
 									"var jsonData = pm.response.json();",
 									"pm.expect(jsonData.longueurCyclable).to.be.gt(0);",
 									"pm.globals.set(\"longueurCyclable\",jsonData.longueurCyclable )",
-									""
+									"})"
 								],
 								"type": "text/javascript"
 							}
@@ -192,7 +193,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "34bb2b8b-22b9-47b4-9abc-96b55fc46113",
+								"id": "2d7882e7-c85f-46e2-a1cb-b5ab061cb67b",
 								"exec": [
 									"pm.test(\"readme - 0.25\", function () {",
 									"    ",
@@ -227,7 +228,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "3446fd41-8cac-4142-a596-0953f5000583",
+								"id": "25423154-7b29-471c-925a-eecd4c594555",
 								"exec": [
 									"pm.test(\"type - 5 types de restaurants\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -270,7 +271,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "6fa64d21-2a00-4b7d-ac08-e601939e9ec5",
+								"id": "74ba8fcd-8328-4e33-a5ae-de91f288da9f",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -288,7 +289,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "a619f409-de64-43dc-a71d-bf7cc3d46820",
+								"id": "9ce0ec18-9135-4bef-9d39-f32ef28d20df",
 								"exec": [
 									"",
 									"allRestaurantType = pm.globals.get(\"restaurantList\")",
@@ -315,31 +316,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-1}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-1}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-1}},\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -361,7 +354,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "8c8b8aac-e041-4bc8-9fe2-b4cbdc458b45",
+								"id": "bb37d2be-c7c3-4af3-bab6-9c874fc0b8a9",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -379,7 +372,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "e0327410-119e-44c4-b2ee-ef6becc08e9f",
+								"id": "7d4348ce-82ac-4af3-b78b-da52dba24bec",
 								"exec": [
 									""
 								],
@@ -388,31 +381,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-1}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-1}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-1}},\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -434,7 +419,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5c7728c7-a8b3-4145-aac5-ed01303b4f54",
+								"id": "4ecc7441-c050-427d-b528-ffa6da78ab02",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -466,7 +451,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "9ccb0e43-ca40-4353-9a85-db7b609ddc27",
+								"id": "c2b68275-1a1c-4336-a247-4df18c70f566",
 								"exec": [
 									""
 								],
@@ -475,31 +460,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-1}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-1}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-1}},\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -521,7 +498,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "e5b278c1-7116-4507-b6a4-8a58117f0b07",
+								"id": "b319c64a-7775-4610-a786-ecfc4f715be0",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -539,7 +516,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "a6896299-7f56-4c0f-b3d5-4d6e161e7cd8",
+								"id": "598cef9a-d818-4bac-9c9f-418a13290e46",
 								"exec": [
 									"",
 									"allRestaurantType = pm.globals.get(\"restaurantList\")",
@@ -566,31 +543,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-2}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-2}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-2}},\n    \"maximumLength\":{{randomMaximumLength-2}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -612,7 +581,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "d1599bf1-f4e6-4de9-b8f8-110ee7efd39c",
+								"id": "5fa89de0-a5df-4e94-bf90-28881cb207f6",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -630,7 +599,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "b916696b-9ec3-470a-b085-4d13469eb4ae",
+								"id": "24574e2a-08a5-4bb1-bec3-1e640dcda1e5",
 								"exec": [
 									""
 								],
@@ -639,31 +608,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-2}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-2}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-1}},\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -685,7 +646,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0182b3a9-8f22-4eea-945f-0a073fde7f69",
+								"id": "4257c457-6d53-4ea8-a232-12e966320393",
 								"exec": [
 									"pm.test(\"starting-point - Valid geopoint\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -716,7 +677,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "3f37ca56-6bd1-4ef1-9fe1-2f2db5247bfe",
+								"id": "7617c483-cf15-4483-9da4-1a0a952f5194",
 								"exec": [
 									""
 								],
@@ -725,31 +686,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType-2}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength-2}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-2}},\n    \"maximumLength\":{{randomMaximumLength-2}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -771,7 +724,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "59776aa2-bbae-46d9-a200-2e64903ca8dc",
+								"id": "d2f58bb7-3c9b-44e5-9e09-27d2acf6a436",
 								"exec": [
 									"pm.test(\"starting-point - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
@@ -788,7 +741,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "d3fc937c-743a-481d-aa43-1efd49e1d82b",
+								"id": "31a63a5f-9d0e-48b4-9de3-cae33bcf2d68",
 								"exec": [
 									""
 								],
@@ -797,31 +750,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{randomRestaurantType}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "badValue",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{randomRestaurantType-1}},\n    \"maximumLength\":\"badValue\"\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -843,7 +788,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "c2b109d2-b1ad-4206-a625-cacc48129839",
+								"id": "35c1c340-401e-4d86-9812-fe3040ee3639",
 								"exec": [
 									"pm.test(\"starting-point - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
@@ -860,7 +805,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "c9a9abb0-bee1-475b-a65c-abb961dce78f",
+								"id": "c01062b3-c8be-4da6-b4af-3616adcf2bbc",
 								"exec": [
 									""
 								],
@@ -869,31 +814,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "badValue",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":\"badValue\",\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -915,7 +852,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5dbcc253-48d9-41f8-9c45-516b2de7bf5b",
+								"id": "628a0063-7f29-4ece-b7ee-9a2aebf0f3ef",
 								"exec": [
 									"pm.test(\"starting-point - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
@@ -932,7 +869,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "989c6f38-d524-4093-b7e6-1a49e2fd88a4",
+								"id": "60730502-cf25-478b-b444-8a0daa91734d",
 								"exec": [
 									""
 								],
@@ -941,31 +878,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "\"badValue\"",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":[323],\n    \"maximumLength\":{{randomMaximumLength-1}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -987,7 +916,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "15a00a91-5b39-4284-a52b-939989c12ee9",
+								"id": "c6fb471c-a43f-40c8-8351-1ab3c05205af",
 								"exec": [
 									"pm.test(\"starting-point - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
@@ -1008,7 +937,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "e3447a21-3616-4985-a534-a4429760a3d3",
+								"id": "c574bf60-b026-440e-b680-4f27a7a4ea12",
 								"exec": [
 									""
 								],
@@ -1017,32 +946,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "\"badValue\"",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{randomMaximumLength}}",
-									"type": "text",
-									"disabled": true
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":[3321]\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/starting_point",
@@ -1064,7 +984,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "740bbaec-f295-4c08-b90f-034fcef63356",
+								"id": "5d207248-9110-4184-846b-00e6f033d11d",
 								"exec": [
 									"pm.test(\"parcours - Feature Collection Vide\", function () {",
 									"    var jsonData = pm.response.json();",
@@ -1151,7 +1071,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "989af8d0-a90c-4483-9d52-4dac2475d343",
+								"id": "a94c96da-53a9-47d0-8532-56d6e837e102",
 								"exec": [
 									"var run",
 									"var iteration",
@@ -1210,41 +1130,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{parcoursRestaurantType}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{parcoursMaximumLength}}",
-									"type": "text"
-								},
-								{
-									"key": "startingPoint",
-									"value": "{{parcoursStartingPoint}}",
-									"type": "text"
-								},
-								{
-									"key": "numberOfStops",
-									"value": "{{parcoursNumberOfStops}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{parcoursRestaurantType}},\n    \"maximumLength\":{{parcoursMaximumLength}},\n    \"startingPoint\":{{parcoursStartingPoint}},\n    \"numberOfStops\":{{parcoursNumberOfStops}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/parcours",
@@ -1266,7 +1168,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "6f818992-5a4e-4e19-bff6-f9989990b8ad",
+								"id": "0f7f9b05-3b28-4e86-918a-421ddc2e5919",
 								"exec": [
 									"pm.test(\"parcours - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
@@ -1287,7 +1189,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "7501d43b-e8cb-4d07-8e97-c3f198da200d",
+								"id": "d2036e63-2907-46a7-a613-aaf557d08329",
 								"exec": [
 									"var run",
 									"var iteration",
@@ -1346,41 +1248,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "[123]",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "badValue",
-									"type": "text"
-								},
-								{
-									"key": "startingPoint",
-									"value": "{{parcoursStartingPoint}}",
-									"type": "text"
-								},
-								{
-									"key": "numberOfStops",
-									"value": "{{parcoursNumberOfStops}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":[123],\n    \"maximumLength\":\"badValue\",\n    \"startingPoint\":{{parcoursStartingPoint}},\n    \"numberOfStops\":{{parcoursNumberOfStops}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/parcours",
@@ -1402,14 +1286,14 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1750cf30-899c-4ca3-8e86-31face56887c",
+								"id": "f82a19fc-e9eb-47e1-ac42-5d9ed8286df0",
 								"exec": [
 									"pm.test(\"parcours - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(400);",
 									"});",
 									"",
 									"pm.test(\"parcours - L'erreur est expliquée\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"valid\");",
+									"    pm.expect(pm.response.text()).to.include(\"startingPoint\");",
 									"});",
 									"",
 									"pm.test(\"parcours - L'erreur est expliquée\", function () {",
@@ -1423,7 +1307,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "4a178a22-ca98-4633-a741-38707d94cd5d",
+								"id": "324c5406-fe4a-46f8-bccc-c6c0754017f5",
 								"exec": [
 									"var run",
 									"var iteration",
@@ -1482,41 +1366,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{parcoursRestaurantType}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{parcoursMaximumLength}}",
-									"type": "text"
-								},
-								{
-									"key": "startingPoint",
-									"value": "startingPoint",
-									"type": "text"
-								},
-								{
-									"key": "numberOfStops",
-									"value": "badValue",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{parcoursRestaurantType}},\n    \"maximumLength\":{{parcoursMaximumLength}},\n    \"startingPoint\":\"startingPoint\",\n    \"numberOfStops\":\"badValue\"\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/parcours",
@@ -1538,7 +1404,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ebbd833e-5d6e-4749-b57d-cc7b6200a293",
+								"id": "24bc4da6-b646-4c15-a1e7-ec1910bd2761",
 								"exec": [
 									"pm.test(\"parcours - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(404);",
@@ -1557,7 +1423,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "2be9c40e-bbe9-4ada-b968-32b1981fe733",
+								"id": "6448fb88-e146-4b43-b7bc-dd41e3a4fa97",
 								"exec": [
 									"longueurCyclable = pm.globals.get(\"longueurCyclable\")",
 									"longueurCyclableImpossible = longueurCyclable * 1.15",
@@ -1570,41 +1436,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "{{parcoursRestaurantType}}",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{longueurCyclableImpossible}}",
-									"type": "text"
-								},
-								{
-									"key": "startingPoint",
-									"value": "{{parcoursStartingPoint}}",
-									"type": "text"
-								},
-								{
-									"key": "numberOfStops",
-									"value": "{{parcoursNumberOfStops}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":{{parcoursRestaurantType}},\n    \"maximumLength\":{{longueurCyclableImpossible}},\n    \"startingPoint\":{{parcoursStartingPoint}},\n    \"numberOfStops\":{{parcoursNumberOfStops}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/parcours",
@@ -1626,7 +1474,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "7292e0cb-eb7d-4687-801e-34ec389637a3",
+								"id": "1536f635-6de5-48df-8f12-e44bc69fed8f",
 								"exec": [
 									"pm.test(\"parcours - L'erreur est attrapée\", function () {",
 									"    pm.response.to.have.status(404);",
@@ -1643,7 +1491,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "64832b3d-b988-46ad-a690-b8174fd7e6f1",
+								"id": "96b5d9d2-c7de-42c1-8603-9d14b175f36b",
 								"exec": [
 									"var run",
 									"var iteration",
@@ -1702,41 +1550,23 @@
 						}
 					],
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
 					},
 					"request": {
 						"method": "GET",
 						"header": [
 							{
-								"key": "type",
+								"key": "Content-Type",
 								"type": "text",
 								"value": "application/json"
 							}
 						],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "type",
-									"value": "[\"typeRestorantInexistant\"]",
-									"type": "text"
-								},
-								{
-									"key": "maximumLength",
-									"value": "{{parcoursMaximumLength}}",
-									"type": "text"
-								},
-								{
-									"key": "startingPoint",
-									"value": "{{parcoursStartingPoint}}",
-									"type": "text"
-								},
-								{
-									"key": "numberOfStops",
-									"value": "{{parcoursNumberOfStops}}",
-									"type": "text"
-								}
-							]
+							"mode": "raw",
+							"raw": "{\n    \"type\":[\"typeDeRestaurantQuiNestPasDansLaBD\"],\n    \"maximumLength\":{{parcoursMaximumLength}},\n    \"startingPoint\":{{parcoursStartingPoint}},\n    \"numberOfStops\":{{parcoursNumberOfStops}}\n}"
 						},
 						"url": {
 							"raw": "http://{{host}}:{{port}}/parcours",
