@@ -35,7 +35,7 @@ highlightTheme: "darkula"
 
 ---
 
-# Retour réplication
+# Réplication
 * Pourquoi on réplique?
 * Single Leader / Multileader / Leaderless
 * Chaque type apporte ses défis
@@ -43,11 +43,21 @@ highlightTheme: "darkula"
 
 ---
 
-# Retour réplication
+# Réplication
 * Réplication Synchrone / Asynchrone
 * Récupération / Réparation
 * Envoyer les réplications 
   * Statement Based / WAL / Logical Log
+
+---
+
+# MongoDB
+* Membre Primaire
+* Membre Secondaire
+    * Priorité > 0 vs Priorité = 0
+    * Votant, différé, ...
+* Membre Arbitre
+* Implémentation approche hybride Sync / Async
 
 ---
 
