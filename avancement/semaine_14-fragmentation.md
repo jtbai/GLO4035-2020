@@ -14,7 +14,9 @@ highlightTheme: "darkula"
 ## À VENIR
 
 * Évaluation du cours!
+* Oral
 * Remise 3
+* Exam
 
 ---
 
@@ -30,6 +32,7 @@ highlightTheme: "darkula"
 
 * Retour réplication
 * Retour Mongo DB
+* Presentation examen
 * Collection de Requêtes postman
 * Faq Remise 3
 
@@ -63,6 +66,23 @@ highlightTheme: "darkula"
 
 # Retour Mongo DB
 * Exemple d'élection d'un primaire
+
+---
+
+# Examen Final
+
+* Même format que la derniere fois
+* VoF / Réponse Courte / Requêtes
+* Question Longue 
+
+---
+
+# Examen Final
+
+* Mongo (Distribution)
+* Elastic Search (Requete + distribution) 
+* Réplication (DDIA ch. 5)
+* Fragmentation (DDIA ch. 6)
 
 ---
 
