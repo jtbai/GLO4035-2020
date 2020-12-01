@@ -1412,7 +1412,7 @@
 									"",
 									"",
 									"pm.test(\"parcours - L'erreur est expliquée\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"longueur\");",
+									"    pm.expect(pm.response.text()).to.include(\"maximumLength\");",
 									"});",
 									"",
 									""
@@ -1481,7 +1481,7 @@
 									"});",
 									"",
 									"pm.test(\"parcours - L'erreur est expliquée\", function () {",
-									"    pm.expect(pm.response.text()).to.include(\"restaurant\");",
+									"    pm.expect(pm.response.text()).to.include(\"type\");",
 									"});",
 									""
 								],
