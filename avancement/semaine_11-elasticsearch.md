@@ -23,7 +23,7 @@ highlightTheme: "darkula"
 
 * Retour ES1
 * Équipe Remise 3
-* FAQ
+* FAQ Projet
 
 ---
 
@@ -66,7 +66,7 @@ Eq : 2 / 3 / 7 / 13 / 15
 
 ---
 
-# Projet
+# FAQ Projet
 
 * Déboguer son projet
 * Utiliser les drivers 

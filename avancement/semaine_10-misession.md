@@ -56,11 +56,11 @@ highlightTheme: "darkula"
 
   * Eq1: Redis
   * Eq2: eventStore
-  * Eq3: ?
+  * Eq3: N/A
   * Eq4: Cassandra
   * Eq5: ?
   * Eq6: ?
-  * Eq7: ?
+  * Eq7: influxDB
 
 ---
 

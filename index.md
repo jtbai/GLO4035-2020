@@ -24,7 +24,9 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 * [Velo épicurien](evaluation/projet_ingenierie.md)  
 * [Ponderation](evaluation/ponderation.md)  
 * [Barème](https://docs.google.com/spreadsheets/d/18qU0XgY-uqfECFpx90qccWpm86i5AqQGzhfpBZtuarw/edit?usp=sharing){:target="_blank"}  
-* [Évaluation - Requêtes](evaluation/velo_epicurien_requests.json)
+
+* [Évaluation - Requêtes - Remise 2 & 3](evaluation/velo_epicurien_request_remise2-3.json)
+
 
 ### Présentation Orale (GLO-7035)
 * [Devis](evaluation/oral.md)  
@@ -32,10 +34,13 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Matière
 
+### Design d'application
+  * [DDIA - Replication](https://youtu.be/QAKg-DNKR0w){:target="_blank"}  
+
 ### Mongo DB
 * **Capsules** 
   * [MongoDB - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
-
+  * [MongoDB - Replication](https://youtu.be/YXAfZ8dJ3Us){:target="_blank"}  
 
 ### Elastic Search
 * **Capsules**
@@ -52,14 +57,15 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * Labo 7
 
 
-### À faire pour le 1 décembre 2020
+### À faire pour le 8 décembre 2020
 
 * **Capsules**
-  * [DDIA - Replication](https://youtu.be/QAKg-DNKR0w)
-  * [MongoDB - Replication](https://youtu.be/YXAfZ8dJ3Us)
+  * [DDIA - Fragmentation](https://youtu.be/KeOySr9pxqY){:target="_blank"}  
+  * [MongoDB - Fragmentation](https://youtu.be/PA47LIpuVds){:target="_blank"}  
+  * [Elastic Search - Distribution](https://youtu.be/7TvAnk91srg){:target="_blank"}  
 
 * **Lectures**
-  * DDIA: Chapitre 5 - Replication
+  * DDIA: Chapitre 6 - Fragmentation
 
 ## Exercices
 
