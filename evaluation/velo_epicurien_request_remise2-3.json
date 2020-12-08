@@ -1426,7 +1426,7 @@
 								"id": "6448fb88-e146-4b43-b7bc-dd41e3a4fa97",
 								"exec": [
 									"longueurCyclable = pm.globals.get(\"longueurCyclable\")",
-									"longueurCyclableImpossible = longueurCyclable * 1.15",
+									"longueurCyclableImpossible = Math.floor(longueurCyclable * 1.15)",
 									"pm.globals.set(\"longueurCyclableImpossible\", longueurCyclableImpossible)",
 									"console.log(longueurCyclableImpossible)",
 									""
