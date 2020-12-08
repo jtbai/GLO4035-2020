@@ -2,10 +2,11 @@
 Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ## Avancement session
-* [Semaine 14](avancement/semaine-14.pdf)
+* [Semaine 15](avancement/semaine-15.pdf)
 
 ## Live
 
+* [Semaine 15 - Conclusion](https://youtu.be/9cEbBELNhqY){:target="_blank"}  
 * [Semaine 14 - Fragmentation](https://youtu.be/mYmyv52y3Dk){:target="_blank"}  
 * [Semaine 13 - Replication](https://youtu.be/5FCKIq5fmmM){:target="_blank"}  
 * [Semaine 12 - Calm before the ~~storm~~ more calm](https://youtu.be/EqU-Z0s8gH4){:target="_blank"}  
@@ -20,7 +21,6 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 
 ### Formative
 [Devoir 3](devoir/devoir3.py)
-
 
 ### Projet
 * [Velo épicurien](evaluation/projet_ingenierie.md)  
@@ -37,12 +37,18 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
 ## Matière
 
 ### Design d'application
+* **Capsules**
   * [DDIA - Replication](https://youtu.be/QAKg-DNKR0w){:target="_blank"}  
+  * [DDIA - Fragmentation](https://youtu.be/KeOySr9pxqY){:target="_blank"}  
+* **Lectures**
+  * DDIA: Chapitre 5 - Réplication
+  * DDIA: Chapitre 6 - Fragmentation
 
 ### Mongo DB
 * **Capsules** 
   * [MongoDB - Sécurité](https://youtu.be/bpYNtaAtj0o){:target="_blank"}  
   * [MongoDB - Replication](https://youtu.be/YXAfZ8dJ3Us){:target="_blank"}  
+  * [MongoDB - Fragmentation](https://youtu.be/PA47LIpuVds){:target="_blank"}  
 
 ### Elastic Search
 * **Capsules**
@@ -53,21 +59,11 @@ Ce site contient le contenu autre que les présentations powerpoints du cours
   * [Elastic Search - Recherche encore plus avancée](https://youtu.be/T_6BMj_h_Ng){:target="_blank"}  
   * [Elastic Search - Agrégation](https://youtu.be/ns0nv1Y2HJ0){:target="_blank"}  
   * [Elastic Search - Géolocalisation](https://youtu.be/8M_hts0FjhI){:target="_blank"}  
+  * [Elastic Search - Distribution](https://youtu.be/7TvAnk91srg){:target="_blank"}  
 
 * **Labo**
   * Labo 6
   * Labo 7
-
-
-### À faire pour le 8 décembre 2020
-
-* **Capsules**
-  * [DDIA - Fragmentation](https://youtu.be/KeOySr9pxqY){:target="_blank"}  
-  * [MongoDB - Fragmentation](https://youtu.be/PA47LIpuVds){:target="_blank"}  
-  * [Elastic Search - Distribution](https://youtu.be/7TvAnk91srg){:target="_blank"}  
-
-* **Lectures**
-  * DDIA: Chapitre 6 - Fragmentation
 
 ## Exercices
 
